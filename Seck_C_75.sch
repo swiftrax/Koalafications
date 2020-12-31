@@ -1,7 +1,8 @@
 EESchema Schematic File Version 4
+LIBS:Seck_C_75-cache
 EELAYER 30 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr User 17000 7874
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -14,2049 +15,2971 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Switch:SW_Push K_0
-U 1 1 5FD4C53A
-P 775 825
-F 0 "K_0" H 775 1110 50  0000 C CNN
-F 1 "KC_ESC" H 775 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 775 1025 50  0001 C CNN
-F 3 "~" H 775 1025 50  0001 C CNN
-	1    775  825 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_1
-U 1 1 5FD4E9B4
-P 1775 825
-F 0 "K_1" H 1775 1110 50  0000 C CNN
-F 1 "KC_1" H 1775 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 1775 1025 50  0001 C CNN
-F 3 "~" H 1775 1025 50  0001 C CNN
-	1    1775 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D1
-U 1 1 5FD4EE07
-P 1275 825
-F 0 "D1" H 1275 1042 50  0000 C CNN
-F 1 "BAV70" H 1275 951 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 1275 825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1275 825 50  0001 C CNN
-	1    1275 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_100
-U 1 1 5FD55C80
-P 775 1400
-F 0 "K_100" H 775 1685 50  0000 C CNN
-F 1 "KC_TAB" H 775 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1.5U-NoLED" H 775 1600 50  0001 C CNN
-F 3 "~" H 775 1600 50  0001 C CNN
-	1    775  1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_101
-U 1 1 5FD55C86
-P 1775 1400
-F 0 "K_101" H 1775 1685 50  0000 C CNN
-F 1 "KC_Q" H 1775 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 1775 1600 50  0001 C CNN
-F 3 "~" H 1775 1600 50  0001 C CNN
-	1    1775 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D8
-U 1 1 5FD55C8C
-P 1275 1400
-F 0 "D8" H 1275 1617 50  0000 C CNN
-F 1 "BAV70" H 1275 1526 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 1275 1400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1275 1400 50  0001 C CNN
-	1    1275 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_200
-U 1 1 5FD57A21
-P 775 1975
-F 0 "K_200" H 775 2260 50  0000 C CNN
-F 1 "KC_CAPS" H 775 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1.75U-NoLED" H 775 2175 50  0001 C CNN
-F 3 "~" H 775 2175 50  0001 C CNN
-	1    775  1975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_201
-U 1 1 5FD57A27
-P 1775 1975
-F 0 "K_201" H 1775 2260 50  0000 C CNN
-F 1 "KC_A" H 1775 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 1775 2175 50  0001 C CNN
-F 3 "~" H 1775 2175 50  0001 C CNN
-	1    1775 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D15
-U 1 1 5FD57A2D
-P 1275 1975
-F 0 "D15" H 1275 2192 50  0000 C CNN
-F 1 "BAV70" H 1275 2101 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 1275 1975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1275 1975 50  0001 C CNN
-	1    1275 1975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_300
-U 1 1 5FD5E7F9
-P 775 2550
-F 0 "K_300" H 775 2835 50  0000 C CNN
-F 1 "KC_LSFT" H 775 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-2.25U-NoLED" H 775 2750 50  0001 C CNN
-F 3 "~" H 775 2750 50  0001 C CNN
-	1    775  2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_301
-U 1 1 5FD5E7FF
-P 1775 2550
-F 0 "K_301" H 1775 2835 50  0000 C CNN
-F 1 "KC_Z" H 1775 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 1775 2750 50  0001 C CNN
-F 3 "~" H 1775 2750 50  0001 C CNN
-	1    1775 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D22
-U 1 1 5FD5E805
-P 1275 2550
-F 0 "D22" H 1275 2767 50  0000 C CNN
-F 1 "BAV70" H 1275 2676 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 1275 2550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1275 2550 50  0001 C CNN
-	1    1275 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_400
-U 1 1 5FD5E80B
-P 775 3125
-F 0 "K_400" H 775 3410 50  0000 C CNN
-F 1 "KC_LCTL" H 775 3319 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-NoLED" H 775 3325 50  0001 C CNN
-F 3 "~" H 775 3325 50  0001 C CNN
-	1    775  3125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_401
-U 1 1 5FD5E811
-P 1775 3125
-F 0 "K_401" H 1775 3410 50  0000 C CNN
-F 1 "KC_LGUI" H 1775 3319 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-NoLED" H 1775 3325 50  0001 C CNN
-F 3 "~" H 1775 3325 50  0001 C CNN
-	1    1775 3125
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D29
-U 1 1 5FD5E817
-P 1275 3125
-F 0 "D29" H 1275 3342 50  0000 C CNN
-F 1 "BAV70" H 1275 3251 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 1275 3125 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 1275 3125 50  0001 C CNN
-	1    1275 3125
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_2
-U 1 1 5FD6A401
-P 2300 825
-F 0 "K_2" H 2300 1110 50  0000 C CNN
-F 1 "KC_2" H 2300 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 2300 1025 50  0001 C CNN
-F 3 "~" H 2300 1025 50  0001 C CNN
-	1    2300 825 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_3
-U 1 1 5FD6A407
-P 3300 825
-F 0 "K_3" H 3300 1110 50  0000 C CNN
-F 1 "KC_3" H 3300 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 3300 1025 50  0001 C CNN
-F 3 "~" H 3300 1025 50  0001 C CNN
-	1    3300 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D2
-U 1 1 5FD6A40D
-P 2800 825
-F 0 "D2" H 2800 1042 50  0000 C CNN
-F 1 "BAV70" H 2800 951 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 2800 825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2800 825 50  0001 C CNN
-	1    2800 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_102
-U 1 1 5FD6A413
-P 2300 1400
-F 0 "K_102" H 2300 1685 50  0000 C CNN
-F 1 "KC_W" H 2300 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 2300 1600 50  0001 C CNN
-F 3 "~" H 2300 1600 50  0001 C CNN
-	1    2300 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_103
-U 1 1 5FD6A419
-P 3300 1400
-F 0 "K_103" H 3300 1685 50  0000 C CNN
-F 1 "KC_E" H 3300 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 3300 1600 50  0001 C CNN
-F 3 "~" H 3300 1600 50  0001 C CNN
-	1    3300 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D9
-U 1 1 5FD6A41F
-P 2800 1400
-F 0 "D9" H 2800 1617 50  0000 C CNN
-F 1 "BAV70" H 2800 1526 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 2800 1400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2800 1400 50  0001 C CNN
-	1    2800 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_202
-U 1 1 5FD6A425
-P 2300 1975
-F 0 "K_202" H 2300 2260 50  0000 C CNN
-F 1 "KC_S" H 2300 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 2300 2175 50  0001 C CNN
-F 3 "~" H 2300 2175 50  0001 C CNN
-	1    2300 1975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_203
-U 1 1 5FD6A42B
-P 3300 1975
-F 0 "K_203" H 3300 2260 50  0000 C CNN
-F 1 "KC_D" H 3300 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 3300 2175 50  0001 C CNN
-F 3 "~" H 3300 2175 50  0001 C CNN
-	1    3300 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D16
-U 1 1 5FD6A431
-P 2800 1975
-F 0 "D16" H 2800 2192 50  0000 C CNN
-F 1 "BAV70" H 2800 2101 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 2800 1975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2800 1975 50  0001 C CNN
-	1    2800 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_302
-U 1 1 5FD6A437
-P 2300 2550
-F 0 "K_302" H 2300 2835 50  0000 C CNN
-F 1 "KC_X" H 2300 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 2300 2750 50  0001 C CNN
-F 3 "~" H 2300 2750 50  0001 C CNN
-	1    2300 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_303
-U 1 1 5FD6A43D
-P 3300 2550
-F 0 "K_303" H 3300 2835 50  0000 C CNN
-F 1 "KC_C" H 3300 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 3300 2750 50  0001 C CNN
-F 3 "~" H 3300 2750 50  0001 C CNN
-	1    3300 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D23
-U 1 1 5FD6A443
-P 2800 2550
-F 0 "D23" H 2800 2767 50  0000 C CNN
-F 1 "BAV70" H 2800 2676 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 2800 2550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2800 2550 50  0001 C CNN
-	1    2800 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_402
-U 1 1 5FD6A449
-P 2300 3125
-F 0 "K_402" H 2300 3410 50  0000 C CNN
-F 1 "KC_LALT" H 2300 3319 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-NoLED" H 2300 3325 50  0001 C CNN
-F 3 "~" H 2300 3325 50  0001 C CNN
-	1    2300 3125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D30
-U 1 1 5FD6A455
-P 2800 3125
-F 0 "D30" H 2800 3342 50  0000 C CNN
-F 1 "BAV70" H 2800 3251 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 2800 3125 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2800 3125 50  0001 C CNN
-	1    2800 3125
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 2175 1275 2175
-Wire Wire Line
-	2800 2750 1275 2750
-Wire Wire Line
-	2800 3325 1275 3325
-Wire Wire Line
-	2800 1600 1275 1600
-Wire Wire Line
-	2800 1025 1275 1025
-Wire Wire Line
-	575  3125 575  2550
-Connection ~ 575  1400
-Wire Wire Line
-	575  1400 575  825 
-Connection ~ 575  1975
-Wire Wire Line
-	575  1975 575  1400
-Connection ~ 575  2550
-Wire Wire Line
-	1975 3125 1975 2550
-Connection ~ 1975 1400
-Wire Wire Line
-	1975 1400 1975 825 
-Connection ~ 1975 1975
-Wire Wire Line
-	1975 1975 1975 1400
-Connection ~ 1975 2550
-Wire Wire Line
-	1975 2550 1975 1975
-Wire Wire Line
-	2100 825  2100 1400
-Connection ~ 2100 1400
-Wire Wire Line
-	2100 1400 2100 1975
-Connection ~ 2100 1975
-Wire Wire Line
-	2100 1975 2100 2550
-Connection ~ 2100 2550
-Wire Wire Line
-	2100 2550 2100 3125
-Connection ~ 3500 1400
-Wire Wire Line
-	3500 1400 3500 825 
-Connection ~ 3500 1975
-Wire Wire Line
-	3500 1975 3500 1400
-Wire Wire Line
-	3500 2550 3500 1975
-$Comp
-L Switch:SW_Push K_4
-U 1 1 5FD79725
-P 3825 825
-F 0 "K_4" H 3825 1110 50  0000 C CNN
-F 1 "KC_4" H 3825 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 3825 1025 50  0001 C CNN
-F 3 "~" H 3825 1025 50  0001 C CNN
-	1    3825 825 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_5
-U 1 1 5FD7972B
-P 4825 825
-F 0 "K_5" H 4825 1110 50  0000 C CNN
-F 1 "KC_5" H 4825 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 4825 1025 50  0001 C CNN
-F 3 "~" H 4825 1025 50  0001 C CNN
-	1    4825 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D3
-U 1 1 5FD79731
-P 4325 825
-F 0 "D3" H 4325 1042 50  0000 C CNN
-F 1 "BAV70" H 4325 951 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 4325 825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4325 825 50  0001 C CNN
-	1    4325 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_104
-U 1 1 5FD79737
-P 3825 1400
-F 0 "K_104" H 3825 1685 50  0000 C CNN
-F 1 "KC_R" H 3825 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 3825 1600 50  0001 C CNN
-F 3 "~" H 3825 1600 50  0001 C CNN
-	1    3825 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_105
-U 1 1 5FD7973D
-P 4825 1400
-F 0 "K_105" H 4825 1685 50  0000 C CNN
-F 1 "KC_T" H 4825 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 4825 1600 50  0001 C CNN
-F 3 "~" H 4825 1600 50  0001 C CNN
-	1    4825 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D10
-U 1 1 5FD79743
-P 4325 1400
-F 0 "D10" H 4325 1617 50  0000 C CNN
-F 1 "BAV70" H 4325 1526 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 4325 1400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4325 1400 50  0001 C CNN
-	1    4325 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_204
-U 1 1 5FD79749
-P 3825 1975
-F 0 "K_204" H 3825 2260 50  0000 C CNN
-F 1 "KC_F" H 3825 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 3825 2175 50  0001 C CNN
-F 3 "~" H 3825 2175 50  0001 C CNN
-	1    3825 1975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_205
-U 1 1 5FD7974F
-P 4825 1975
-F 0 "K_205" H 4825 2260 50  0000 C CNN
-F 1 "KC_G" H 4825 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 4825 2175 50  0001 C CNN
-F 3 "~" H 4825 2175 50  0001 C CNN
-	1    4825 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D17
-U 1 1 5FD79755
-P 4325 1975
-F 0 "D17" H 4325 2192 50  0000 C CNN
-F 1 "BAV70" H 4325 2101 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 4325 1975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4325 1975 50  0001 C CNN
-	1    4325 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_304
-U 1 1 5FD7975B
-P 3825 2550
-F 0 "K_304" H 3825 2835 50  0000 C CNN
-F 1 "KC_V" H 3825 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 3825 2750 50  0001 C CNN
-F 3 "~" H 3825 2750 50  0001 C CNN
-	1    3825 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_305
-U 1 1 5FD79761
-P 4825 2550
-F 0 "K_305" H 4825 2835 50  0000 C CNN
-F 1 "KC_B" H 4825 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 4825 2750 50  0001 C CNN
-F 3 "~" H 4825 2750 50  0001 C CNN
-	1    4825 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D24
-U 1 1 5FD79767
-P 4325 2550
-F 0 "D24" H 4325 2767 50  0000 C CNN
-F 1 "BAV70" H 4325 2676 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 4325 2550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 4325 2550 50  0001 C CNN
-	1    4325 2550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4325 2175 2800 2175
-Wire Wire Line
-	4325 2750 2800 2750
-Wire Wire Line
-	4325 1600 2800 1600
-Wire Wire Line
-	4325 1025 2800 1025
-Wire Wire Line
-	3625 825  3625 1400
-Connection ~ 3625 1400
-Wire Wire Line
-	3625 1400 3625 1975
-Connection ~ 3625 1975
-Wire Wire Line
-	3625 1975 3625 2550
-Connection ~ 5025 1400
-Wire Wire Line
-	5025 1400 5025 825 
-Connection ~ 5025 1975
-Wire Wire Line
-	5025 1975 5025 1400
-Wire Wire Line
-	5025 2550 5025 1975
-$Comp
-L Switch:SW_Push K_6
-U 1 1 5FD7F513
-P 5350 825
-F 0 "K_6" H 5350 1110 50  0000 C CNN
-F 1 "KC_6" H 5350 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 5350 1025 50  0001 C CNN
-F 3 "~" H 5350 1025 50  0001 C CNN
-	1    5350 825 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_7
-U 1 1 5FD7F519
-P 6350 825
-F 0 "K_7" H 6350 1110 50  0000 C CNN
-F 1 "KC_7" H 6350 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 6350 1025 50  0001 C CNN
-F 3 "~" H 6350 1025 50  0001 C CNN
-	1    6350 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D4
-U 1 1 5FD7F51F
-P 5850 825
-F 0 "D4" H 5850 1042 50  0000 C CNN
-F 1 "BAV70" H 5850 951 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 5850 825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5850 825 50  0001 C CNN
-	1    5850 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_106
-U 1 1 5FD7F525
-P 5350 1400
-F 0 "K_106" H 5350 1685 50  0000 C CNN
-F 1 "KC_Y" H 5350 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 5350 1600 50  0001 C CNN
-F 3 "~" H 5350 1600 50  0001 C CNN
-	1    5350 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_107
-U 1 1 5FD7F52B
-P 6350 1400
-F 0 "K_107" H 6350 1685 50  0000 C CNN
-F 1 "KC_U" H 6350 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 6350 1600 50  0001 C CNN
-F 3 "~" H 6350 1600 50  0001 C CNN
-	1    6350 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D11
-U 1 1 5FD7F531
-P 5850 1400
-F 0 "D11" H 5850 1617 50  0000 C CNN
-F 1 "BAV70" H 5850 1526 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 5850 1400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5850 1400 50  0001 C CNN
-	1    5850 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_206
-U 1 1 5FD7F537
-P 5350 1975
-F 0 "K_206" H 5350 2260 50  0000 C CNN
-F 1 "KC_H" H 5350 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 5350 2175 50  0001 C CNN
-F 3 "~" H 5350 2175 50  0001 C CNN
-	1    5350 1975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_207
-U 1 1 5FD7F53D
-P 6350 1975
-F 0 "K_207" H 6350 2260 50  0000 C CNN
-F 1 "KC_J" H 6350 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 6350 2175 50  0001 C CNN
-F 3 "~" H 6350 2175 50  0001 C CNN
-	1    6350 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D18
-U 1 1 5FD7F543
-P 5850 1975
-F 0 "D18" H 5850 2192 50  0000 C CNN
-F 1 "BAV70" H 5850 2101 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 5850 1975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5850 1975 50  0001 C CNN
-	1    5850 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_306
-U 1 1 5FD7F549
-P 5350 2550
-F 0 "K_306" H 5350 2835 50  0000 C CNN
-F 1 "KC_N" H 5350 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 5350 2750 50  0001 C CNN
-F 3 "~" H 5350 2750 50  0001 C CNN
-	1    5350 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_307
-U 1 1 5FD7F54F
-P 6350 2550
-F 0 "K_307" H 6350 2835 50  0000 C CNN
-F 1 "KC_M" H 6350 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 6350 2750 50  0001 C CNN
-F 3 "~" H 6350 2750 50  0001 C CNN
-	1    6350 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D25
-U 1 1 5FD7F555
-P 5850 2550
-F 0 "D25" H 5850 2767 50  0000 C CNN
-F 1 "BAV70" H 5850 2676 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 5850 2550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5850 2550 50  0001 C CNN
-	1    5850 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_406
-U 1 1 5FD7F55B
-P 5350 3125
-F 0 "K_406" H 5350 3410 50  0000 C CNN
-F 1 "KC_SPC" H 5350 3319 50  0000 C CNN
-F 2 "MX_Only:MXOnly-6.25U-ReversedStabilizers-NoLED" H 5350 3325 50  0001 C CNN
-F 3 "~" H 5350 3325 50  0001 C CNN
-	1    5350 3125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5850 2175 4325 2175
-Wire Wire Line
-	5850 2750 4325 2750
-Wire Wire Line
-	5850 1600 4325 1600
-Wire Wire Line
-	5850 1025 4325 1025
-Wire Wire Line
-	5150 825  5150 1400
-Connection ~ 5150 1400
-Wire Wire Line
-	5150 1400 5150 1975
-Connection ~ 5150 1975
-Wire Wire Line
-	5150 1975 5150 2550
-Connection ~ 5150 2550
-Wire Wire Line
-	5150 2550 5150 3125
-Connection ~ 6550 1400
-Wire Wire Line
-	6550 1400 6550 825 
-Connection ~ 6550 1975
-Wire Wire Line
-	6550 1975 6550 1400
-Wire Wire Line
-	6550 2550 6550 1975
-$Comp
-L Switch:SW_Push K_8
-U 1 1 5FD83DF5
-P 6875 825
-F 0 "K_8" H 6875 1110 50  0000 C CNN
-F 1 "KC_8" H 6875 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 6875 1025 50  0001 C CNN
-F 3 "~" H 6875 1025 50  0001 C CNN
-	1    6875 825 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_9
-U 1 1 5FD83DFB
-P 7875 825
-F 0 "K_9" H 7875 1110 50  0000 C CNN
-F 1 "KC_9" H 7875 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 7875 1025 50  0001 C CNN
-F 3 "~" H 7875 1025 50  0001 C CNN
-	1    7875 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D5
-U 1 1 5FD83E01
-P 7375 825
-F 0 "D5" H 7375 1042 50  0000 C CNN
-F 1 "BAV70" H 7375 951 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 7375 825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7375 825 50  0001 C CNN
-	1    7375 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_108
-U 1 1 5FD83E07
-P 6875 1400
-F 0 "K_108" H 6875 1685 50  0000 C CNN
-F 1 "KC_I" H 6875 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 6875 1600 50  0001 C CNN
-F 3 "~" H 6875 1600 50  0001 C CNN
-	1    6875 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_109
-U 1 1 5FD83E0D
-P 7875 1400
-F 0 "K_109" H 7875 1685 50  0000 C CNN
-F 1 "KC_O" H 7875 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 7875 1600 50  0001 C CNN
-F 3 "~" H 7875 1600 50  0001 C CNN
-	1    7875 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D12
-U 1 1 5FD83E13
-P 7375 1400
-F 0 "D12" H 7375 1617 50  0000 C CNN
-F 1 "BAV70" H 7375 1526 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 7375 1400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7375 1400 50  0001 C CNN
-	1    7375 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_208
-U 1 1 5FD83E19
-P 6875 1975
-F 0 "K_208" H 6875 2260 50  0000 C CNN
-F 1 "KC_K" H 6875 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 6875 2175 50  0001 C CNN
-F 3 "~" H 6875 2175 50  0001 C CNN
-	1    6875 1975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_209
-U 1 1 5FD83E1F
-P 7875 1975
-F 0 "K_209" H 7875 2260 50  0000 C CNN
-F 1 "KC_L" H 7875 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 7875 2175 50  0001 C CNN
-F 3 "~" H 7875 2175 50  0001 C CNN
-	1    7875 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D19
-U 1 1 5FD83E25
-P 7375 1975
-F 0 "D19" H 7375 2192 50  0000 C CNN
-F 1 "BAV70" H 7375 2101 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 7375 1975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7375 1975 50  0001 C CNN
-	1    7375 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_308
-U 1 1 5FD83E2B
-P 6875 2550
-F 0 "K_308" H 6875 2835 50  0000 C CNN
-F 1 "KC_COMM" H 6875 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 6875 2750 50  0001 C CNN
-F 3 "~" H 6875 2750 50  0001 C CNN
-	1    6875 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_309
-U 1 1 5FD83E31
-P 7875 2550
-F 0 "K_309" H 7875 2835 50  0000 C CNN
-F 1 "KC_DOT" H 7875 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 7875 2750 50  0001 C CNN
-F 3 "~" H 7875 2750 50  0001 C CNN
-	1    7875 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D26
-U 1 1 5FD83E37
-P 7375 2550
-F 0 "D26" H 7375 2767 50  0000 C CNN
-F 1 "BAV70" H 7375 2676 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 7375 2550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7375 2550 50  0001 C CNN
-	1    7375 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_408
-U 1 1 5FD83E3D
-P 6875 3125
-F 0 "K_408" H 6875 3410 50  0000 C CNN
-F 1 "KC_RALT" H 6875 3319 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-NoLED" H 6875 3325 50  0001 C CNN
-F 3 "~" H 6875 3325 50  0001 C CNN
-	1    6875 3125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_409
-U 1 1 5FD83E43
-P 7875 3125
-F 0 "K_409" H 7875 3410 50  0000 C CNN
-F 1 "KC_RGUI" H 7875 3319 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-NoLED" H 7875 3325 50  0001 C CNN
-F 3 "~" H 7875 3325 50  0001 C CNN
-	1    7875 3125
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D31
-U 1 1 5FD83E49
-P 7375 3125
-F 0 "D31" H 7375 3342 50  0000 C CNN
-F 1 "BAV70" H 7375 3251 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 7375 3125 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7375 3125 50  0001 C CNN
-	1    7375 3125
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7375 2175 5850 2175
-Wire Wire Line
-	7375 2750 5850 2750
-Wire Wire Line
-	7375 1600 5850 1600
-Wire Wire Line
-	7375 1025 5850 1025
-Wire Wire Line
-	6675 825  6675 1400
-Connection ~ 6675 1400
-Wire Wire Line
-	6675 1400 6675 1975
-Connection ~ 6675 1975
-Wire Wire Line
-	6675 1975 6675 2550
-Connection ~ 6675 2550
-Wire Wire Line
-	6675 2550 6675 3125
-Wire Wire Line
-	8075 3125 8075 2550
-Connection ~ 8075 1400
-Wire Wire Line
-	8075 1400 8075 825 
-Connection ~ 8075 1975
-Wire Wire Line
-	8075 1975 8075 1400
-Connection ~ 8075 2550
-Wire Wire Line
-	8075 2550 8075 1975
-$Comp
-L Switch:SW_Push K_10
-U 1 1 5FD88276
-P 8400 825
-F 0 "K_10" H 8400 1110 50  0000 C CNN
-F 1 "KC_0" H 8400 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 8400 1025 50  0001 C CNN
-F 3 "~" H 8400 1025 50  0001 C CNN
-	1    8400 825 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_11
-U 1 1 5FD8827C
-P 9400 825
-F 0 "K_11" H 9400 1110 50  0000 C CNN
-F 1 "KC_MINS" H 9400 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9400 1025 50  0001 C CNN
-F 3 "~" H 9400 1025 50  0001 C CNN
-	1    9400 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D6
-U 1 1 5FD88282
-P 8900 825
-F 0 "D6" H 8900 1042 50  0000 C CNN
-F 1 "BAV70" H 8900 951 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 8900 825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8900 825 50  0001 C CNN
-	1    8900 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_110
-U 1 1 5FD88288
-P 8400 1400
-F 0 "K_110" H 8400 1685 50  0000 C CNN
-F 1 "KC_P" H 8400 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 8400 1600 50  0001 C CNN
-F 3 "~" H 8400 1600 50  0001 C CNN
-	1    8400 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_111
-U 1 1 5FD8828E
-P 9400 1400
-F 0 "K_111" H 9400 1685 50  0000 C CNN
-F 1 "KC_LBRC" H 9400 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9400 1600 50  0001 C CNN
-F 3 "~" H 9400 1600 50  0001 C CNN
-	1    9400 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D13
-U 1 1 5FD88294
-P 8900 1400
-F 0 "D13" H 8900 1617 50  0000 C CNN
-F 1 "BAV70" H 8900 1526 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 8900 1400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8900 1400 50  0001 C CNN
-	1    8900 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_210
-U 1 1 5FD8829A
-P 8400 1975
-F 0 "K_210" H 8400 2260 50  0000 C CNN
-F 1 "KC_SCLN" H 8400 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 8400 2175 50  0001 C CNN
-F 3 "~" H 8400 2175 50  0001 C CNN
-	1    8400 1975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_211
-U 1 1 5FD882A0
-P 9400 1975
-F 0 "K_211" H 9400 2260 50  0000 C CNN
-F 1 "KC_QUOT" H 9400 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9400 2175 50  0001 C CNN
-F 3 "~" H 9400 2175 50  0001 C CNN
-	1    9400 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D20
-U 1 1 5FD882A6
-P 8900 1975
-F 0 "D20" H 8900 2192 50  0000 C CNN
-F 1 "BAV70" H 8900 2101 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 8900 1975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8900 1975 50  0001 C CNN
-	1    8900 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_310
-U 1 1 5FD882AC
-P 8400 2550
-F 0 "K_310" H 8400 2835 50  0000 C CNN
-F 1 "KC_SLSH" H 8400 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 8400 2750 50  0001 C CNN
-F 3 "~" H 8400 2750 50  0001 C CNN
-	1    8400 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_311
-U 1 1 5FD882B2
-P 9400 2550
-F 0 "K_311" H 9400 2835 50  0000 C CNN
-F 1 "KC_RSFT" H 9400 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-2.75U-NoLED" H 9400 2750 50  0001 C CNN
-F 3 "~" H 9400 2750 50  0001 C CNN
-	1    9400 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D27
-U 1 1 5FD882B8
-P 8900 2550
-F 0 "D27" H 8900 2767 50  0000 C CNN
-F 1 "BAV70" H 8900 2676 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 8900 2550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8900 2550 50  0001 C CNN
-	1    8900 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_410
-U 1 1 5FD882BE
-P 8400 3125
-F 0 "K_410" H 8400 3410 50  0000 C CNN
-F 1 "KC_MO(1)" H 8400 3319 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-NoLED" H 8400 3325 50  0001 C CNN
-F 3 "~" H 8400 3325 50  0001 C CNN
-	1    8400 3125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_411
-U 1 1 5FD882C4
-P 9400 3125
-F 0 "K_411" H 9400 3410 50  0000 C CNN
-F 1 "KC_RCTL" H 9400 3319 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-NoLED" H 9400 3325 50  0001 C CNN
-F 3 "~" H 9400 3325 50  0001 C CNN
-	1    9400 3125
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D32
-U 1 1 5FD882CA
-P 8900 3125
-F 0 "D32" H 8900 3342 50  0000 C CNN
-F 1 "BAV70" H 8900 3251 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 8900 3125 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8900 3125 50  0001 C CNN
-	1    8900 3125
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 2175 7375 2175
-Wire Wire Line
-	8900 2750 7375 2750
-Wire Wire Line
-	8900 3325 7375 3325
-Wire Wire Line
-	8900 1600 7375 1600
-Wire Wire Line
-	8900 1025 7375 1025
-Wire Wire Line
-	8200 825  8200 1400
-Connection ~ 8200 1400
-Wire Wire Line
-	8200 1400 8200 1975
-Connection ~ 8200 1975
-Wire Wire Line
-	8200 1975 8200 2550
-Connection ~ 8200 2550
-Wire Wire Line
-	8200 2550 8200 3125
-Connection ~ 9600 1400
-Wire Wire Line
-	9600 1400 9600 825 
-Connection ~ 9600 1975
-Wire Wire Line
-	9600 1975 9600 1400
-Connection ~ 9600 2550
-Wire Wire Line
-	9600 2550 9600 1975
-$Comp
-L Switch:SW_Push K_12
-U 1 1 5FD91701
-P 9925 825
-F 0 "K_12" H 9925 1110 50  0000 C CNN
-F 1 "KC_EQL" H 9925 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9925 1025 50  0001 C CNN
-F 3 "~" H 9925 1025 50  0001 C CNN
-	1    9925 825 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_13
-U 1 1 5FD91707
-P 10925 825
-F 0 "K_13" H 10925 1110 50  0000 C CNN
-F 1 "KC_BSPC" H 10925 1019 50  0000 C CNN
-F 2 "MX_Only:MXOnly-2U-NoLED" H 10925 1025 50  0001 C CNN
-F 3 "~" H 10925 1025 50  0001 C CNN
-	1    10925 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D7
-U 1 1 5FD9170D
-P 10425 825
-F 0 "D7" H 10425 1042 50  0000 C CNN
-F 1 "BAV70" H 10425 951 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 10425 825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10425 825 50  0001 C CNN
-	1    10425 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_112
-U 1 1 5FD91713
-P 9925 1400
-F 0 "K_112" H 9925 1685 50  0000 C CNN
-F 1 "KC_RBRC" H 9925 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9925 1600 50  0001 C CNN
-F 3 "~" H 9925 1600 50  0001 C CNN
-	1    9925 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_113
-U 1 1 5FD91719
-P 10925 1400
-F 0 "K_113" H 10925 1685 50  0000 C CNN
-F 1 "KC_BSLS" H 10925 1594 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1.5U-NoLED" H 10925 1600 50  0001 C CNN
-F 3 "~" H 10925 1600 50  0001 C CNN
-	1    10925 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D14
-U 1 1 5FD9171F
-P 10425 1400
-F 0 "D14" H 10425 1617 50  0000 C CNN
-F 1 "BAV70" H 10425 1526 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 10425 1400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10425 1400 50  0001 C CNN
-	1    10425 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_212
-U 1 1 5FD91725
-P 9925 1975
-F 0 "K_212" H 9925 2260 50  0000 C CNN
-F 1 "KC_ENT" H 9925 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-2.25U-NoLED" H 9925 2175 50  0001 C CNN
-F 3 "~" H 9925 2175 50  0001 C CNN
-	1    9925 1975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_213
-U 1 1 5FD9172B
-P 10925 1975
-F 0 "K_213" H 10925 2260 50  0000 C CNN
-F 1 "KC_DEL" H 10925 2169 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 10925 2175 50  0001 C CNN
-F 3 "~" H 10925 2175 50  0001 C CNN
-	1    10925 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D21
-U 1 1 5FD91731
-P 10425 1975
-F 0 "D21" H 10425 2192 50  0000 C CNN
-F 1 "BAV70" H 10425 2101 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 10425 1975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10425 1975 50  0001 C CNN
-	1    10425 1975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_312
-U 1 1 5FD91737
-P 9925 2550
-F 0 "K_312" H 9925 2835 50  0000 C CNN
-F 1 "KC_MO(1)" H 9925 2744 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9925 2750 50  0001 C CNN
-F 3 "~" H 9925 2750 50  0001 C CNN
-	1    9925 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D28
-U 1 1 5FD91743
-P 10425 2550
-F 0 "D28" H 10425 2767 50  0000 C CNN
-F 1 "BAV70" H 10425 2676 50  0000 C CNN
-F 2 "Custom_Footprints:SOT-23_Annotated" H 10425 2550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10425 2550 50  0001 C CNN
-	1    10425 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10425 2175 8900 2175
-Wire Wire Line
-	10425 2750 8900 2750
-Wire Wire Line
-	10425 1600 8900 1600
-Wire Wire Line
-	10425 1025 8900 1025
-Wire Wire Line
-	9725 825  9725 1400
-Connection ~ 9725 1400
-Wire Wire Line
-	9725 1400 9725 1975
-Connection ~ 9725 1975
-Wire Wire Line
-	9725 1975 9725 2550
-Text GLabel 1075 1025 0    50   Input ~ 0
-row0
-Text GLabel 1075 1600 0    50   Input ~ 0
-row1
-Text GLabel 1075 2175 0    50   Input ~ 0
-row2
-Text GLabel 1075 2750 0    50   Input ~ 0
-row3
-Text GLabel 1075 3325 0    50   Input ~ 0
-row4
-Wire Wire Line
-	1075 3325 1275 3325
-Connection ~ 1275 3325
-Wire Wire Line
-	1075 2750 1275 2750
-Connection ~ 1275 2750
-Wire Wire Line
-	1075 2175 1275 2175
-Connection ~ 1275 2175
-Wire Wire Line
-	1075 1600 1275 1600
-Connection ~ 1275 1600
-Wire Wire Line
-	1075 1025 1275 1025
-Connection ~ 1275 1025
-Text GLabel 575  825  1    50   Input ~ 0
-col0
-Text GLabel 1975 825  1    50   Input ~ 0
-col1
-Text GLabel 2100 825  1    50   Input ~ 0
-col2
-Text GLabel 3500 825  1    50   Input ~ 0
-col3
-Text GLabel 3625 825  1    50   Input ~ 0
-col4
-Text GLabel 5025 825  1    50   Input ~ 0
-col5
-Text GLabel 5150 825  1    50   Input ~ 0
-col6
-Text GLabel 6550 825  1    50   Input ~ 0
-col7
-Text GLabel 8075 825  1    50   Input ~ 0
-col9
-Text GLabel 6675 825  1    50   Input ~ 0
-col8
-Text GLabel 8200 825  1    50   Input ~ 0
-col10
-Text GLabel 9600 825  1    50   Input ~ 0
-col11
-Text GLabel 9725 825  1    50   Input ~ 0
-col12
-Text GLabel 11125 825  1    50   Input ~ 0
-col13
-NoConn ~ 10725 2550
-$Comp
-L Switch:SW_Push K_400A1
-U 1 1 5FDD33E3
-P 775 3175
-F 0 "K_400A1" H 775 3368 50  0001 C CNN
-F 1 "KC_LCTL" H 775 3369 50  0001 C CNN
-F 2 "MX_Only:MXOnly-1.5U-NoLED" H 775 3375 50  0001 C CNN
-F 3 "~" H 775 3375 50  0001 C CNN
-	1    775  3175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_401A1
-U 1 1 5FDD4D6E
-P 1775 3175
-F 0 "K_401A1" H 1775 3368 50  0001 C CNN
-F 1 "KC_LGUI" H 1775 3369 50  0001 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 1775 3375 50  0001 C CNN
-F 3 "~" H 1775 3375 50  0001 C CNN
-	1    1775 3175
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_402A1
-U 1 1 5FDD651B
-P 2300 3175
-F 0 "K_402A1" H 2300 3368 50  0001 C CNN
-F 1 "KC_LALT" H 2300 3369 50  0001 C CNN
-F 2 "MX_Only:MXOnly-1.5U-NoLED" H 2300 3375 50  0001 C CNN
-F 3 "~" H 2300 3375 50  0001 C CNN
-	1    2300 3175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_406A1
-U 1 1 5FDD7ED9
-P 5350 3175
-F 0 "K_406A1" H 5350 3368 50  0001 C CNN
-F 1 "KC_SPC" H 5350 3369 50  0001 C CNN
-F 2 "MX_Only:MXOnly-7U-ReversedStabilizers-NoLED" H 5350 3375 50  0001 C CNN
-F 3 "~" H 5350 3375 50  0001 C CNN
-	1    5350 3175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_410A1
-U 1 1 5FDDB155
-P 8400 3175
-F 0 "K_410A1" H 8400 3368 50  0001 C CNN
-F 1 "KC_MO(1)" H 8400 3369 50  0001 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 8400 3375 50  0001 C CNN
-F 3 "~" H 8400 3375 50  0001 C CNN
-	1    8400 3175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_411A1
-U 1 1 5FDDCBA9
-P 9400 3175
-F 0 "K_411A1" H 9400 3368 50  0001 C CNN
-F 1 "KC_RCTL" H 9400 3369 50  0001 C CNN
-F 2 "MX_Only:MXOnly-1.5U-NoLED" H 9400 3375 50  0001 C CNN
-F 3 "~" H 9400 3375 50  0001 C CNN
-	1    9400 3175
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_311A1
-U 1 1 5FDDF2EF
-P 9400 2600
-F 0 "K_311A1" H 9400 2793 50  0001 C CNN
-F 1 "KC_RSFT" H 9400 2794 50  0001 C CNN
-F 2 "MX_Only:MXOnly-1.75U-NoLED" H 9400 2800 50  0001 C CNN
-F 3 "~" H 9400 2800 50  0001 C CNN
-	1    9400 2600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_200A1
-U 1 1 5FDE0C7C
-P 775 2025
-F 0 "K_200A1" H 775 2218 50  0001 C CNN
-F 1 "KC_CAPS" H 775 2219 50  0001 C CNN
-F 2 "MX_Only:MXOnly-1.25U-NoLED" H 775 2225 50  0001 C CNN
-F 3 "~" H 775 2225 50  0001 C CNN
-	1    775  2025
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K_013A1
-U 1 1 5FDE26D8
-P 10925 875
-F 0 "K_013A1" H 10925 1068 50  0001 C CNN
-F 1 "KC_BSPC" H 10925 1069 50  0001 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 10925 1075 50  0001 C CNN
-F 3 "~" H 10925 1075 50  0001 C CNN
-	1    10925 875 
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	575  3175 575  3125
-Connection ~ 575  3125
-Wire Wire Line
-	975  3175 975  3125
-Connection ~ 975  3125
-Wire Wire Line
-	1575 3175 1575 3125
-Connection ~ 1575 3125
-Wire Wire Line
-	1975 3175 1975 3125
-Connection ~ 1975 3125
-Wire Wire Line
-	2100 3175 2100 3125
-Connection ~ 2100 3125
-Wire Wire Line
-	2500 3175 2500 3125
-Connection ~ 2500 3125
-Wire Wire Line
-	5150 3175 5150 3125
-Connection ~ 5150 3125
-Wire Wire Line
-	5550 3175 5550 3125
-Wire Wire Line
-	8200 3175 8200 3125
-Connection ~ 8200 3125
-Wire Wire Line
-	8600 3175 8600 3125
-Connection ~ 8600 3125
-Wire Wire Line
-	9200 3175 9200 3125
-Connection ~ 9200 3125
-Wire Wire Line
-	9600 3175 9600 3125
-Connection ~ 9600 3125
-Wire Wire Line
-	9200 2600 9200 2550
-Connection ~ 9200 2550
-Wire Wire Line
-	9600 2550 9600 2600
-Connection ~ 9600 2600
-Wire Wire Line
-	9600 2600 9600 3125
-Wire Wire Line
-	10725 875  10725 825 
-Connection ~ 10725 825 
-Wire Wire Line
-	575  1975 575  2025
-Connection ~ 575  2025
-Wire Wire Line
-	575  2025 575  2550
-Wire Wire Line
-	975  2025 975  1975
-Connection ~ 975  1975
-$Comp
-L Switch:SW_Push K_409A1
-U 1 1 5FE88ED7
-P 7875 3175
-F 0 "K_409A1" H 7875 3368 50  0001 C CNN
-F 1 "KC_RALT" H 7875 3369 50  0001 C CNN
-F 2 "MX_Only:MXOnly-1.5U-NoLED" H 7875 3375 50  0001 C CNN
-F 3 "~" H 7875 3375 50  0001 C CNN
-	1    7875 3175
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8075 3175 8075 3125
-Connection ~ 8075 3125
-Wire Wire Line
-	7675 3175 7675 3125
-Connection ~ 7675 3125
-Connection ~ 2800 1025
-Connection ~ 4325 1025
-Connection ~ 5850 1025
-Connection ~ 7375 1025
-Connection ~ 8900 1025
-Connection ~ 8900 1600
-Connection ~ 7375 1600
-Connection ~ 5850 1600
-Connection ~ 4325 1600
-Connection ~ 2800 1600
-Connection ~ 2800 2175
-Connection ~ 4325 2175
-Connection ~ 5850 2175
-Connection ~ 7375 2175
-Connection ~ 8900 2175
-Connection ~ 8900 2750
-Connection ~ 7375 2750
-Connection ~ 5850 2750
-Connection ~ 4325 2750
-Connection ~ 2800 2750
-Connection ~ 2800 3325
-Connection ~ 7375 3325
-Wire Wire Line
-	2800 3325 7375 3325
-Wire Wire Line
-	5550 3125 5650 3125
-Wire Wire Line
-	5650 3125 5650 3250
-Wire Wire Line
-	5650 3250 3100 3250
-Wire Wire Line
-	3100 3250 3100 3125
-Connection ~ 5550 3125
-$Comp
-L Type-C:HRO-TYPE-C-31-M-12 USB1
-U 1 1 5FD590CA
-P 4300 10125
-F 0 "USB1" H 4133 10922 60  0000 C CNN
-F 1 "HRO-TYPE-C-31-M-12" H 4133 10816 60  0000 C CNN
-F 2 "Type-C:HRO-TYPE-C-31-M-12" H 4300 10125 60  0001 C CNN
-F 3 "" H 4300 10125 60  0001 C CNN
-	1    4300 10125
-	1    0    0    -1  
-$EndComp
-Text GLabel 4600 9975 2    50   Input ~ 0
-DB-
-Text GLabel 4600 10075 2    50   Input ~ 0
-DB+
-Text GLabel 4600 10175 2    50   Input ~ 0
-DB-
-Text GLabel 4600 10275 2    50   Input ~ 0
-DB+
-Wire Wire Line
-	4400 10075 4600 10075
-Wire Wire Line
-	4400 10175 4600 10175
-Wire Wire Line
-	4400 10275 4600 10275
-Wire Wire Line
-	4400 9975 4600 9975
-$Comp
-L Device:R_Small R5
-U 1 1 5FD7141F
-P 4725 9875
-F 0 "R5" V 4650 9875 25  0000 C CNN
-F 1 "5.1kΩ" V 4725 9875 25  0000 C CNN
-F 2 "Custom_Footprints:R_0603_Annotated" H 4725 9875 50  0001 C CNN
-F 3 "~" H 4725 9875 50  0001 C CNN
-	1    4725 9875
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 5FD72FFC
-P 4700 10475
-F 0 "R6" V 4625 10475 25  0000 C CNN
-F 1 "5.1kΩ" V 4700 10475 25  0000 C CNN
-F 2 "Custom_Footprints:R_0603_Annotated" H 4700 10475 50  0001 C CNN
-F 3 "~" H 4700 10475 50  0001 C CNN
-	1    4700 10475
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R4
-U 1 1 5FD7E017
-P 5550 9725
-F 0 "R4" V 5625 9725 25  0000 C CNN
-F 1 "22Ω" V 5550 9725 25  0000 C CNN
-F 2 "Custom_Footprints:R_0603_Annotated" H 5550 9725 50  0001 C CNN
-F 3 "~" H 5550 9725 50  0001 C CNN
-	1    5550 9725
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R3
-U 1 1 5FD81472
-P 5550 9625
-F 0 "R3" V 5475 9625 25  0000 C CNN
-F 1 "22Ω" V 5550 9625 25  0000 C CNN
-F 2 "Custom_Footprints:R_0603_Annotated" H 5550 9625 50  0001 C CNN
-F 3 "~" H 5550 9625 50  0001 C CNN
-	1    5550 9625
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4400 9875 4625 9875
-Wire Wire Line
-	4400 10475 4600 10475
-NoConn ~ 4400 10375
-NoConn ~ 4400 9775
-$Comp
-L power:GND #PWR0101
-U 1 1 5FD98C9C
-P 4950 10775
-F 0 "#PWR0101" H 4950 10525 50  0001 C CNN
-F 1 "GND" H 4955 10602 50  0000 C CNN
-F 2 "" H 4950 10775 50  0001 C CNN
-F 3 "" H 4950 10775 50  0001 C CNN
-	1    4950 10775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 10675 4950 10675
-Wire Wire Line
-	4800 10475 4950 10475
-Wire Wire Line
-	4950 10475 4950 10675
-Wire Wire Line
-	4825 9875 4950 9875
-Wire Wire Line
-	4950 9875 4950 10475
-Connection ~ 4950 10475
-Wire Wire Line
-	4400 10775 4950 10775
-Wire Wire Line
-	4950 10775 4950 10675
-Connection ~ 4950 10775
-Connection ~ 4950 10675
-Wire Wire Line
-	4400 9575 4950 9575
-Wire Wire Line
-	4950 9575 4950 9875
-Connection ~ 4950 9875
-$Comp
-L power:VCC #PWR0102
-U 1 1 5FDBBD76
-P 4525 9675
-F 0 "#PWR0102" H 4525 9525 50  0001 C CNN
-F 1 "VCC" V 4540 9803 50  0000 L CNN
-F 2 "" H 4525 9675 50  0001 C CNN
-F 3 "" H 4525 9675 50  0001 C CNN
-	1    4525 9675
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0103
-U 1 1 5FDBDC87
-P 4525 10575
-F 0 "#PWR0103" H 4525 10425 50  0001 C CNN
-F 1 "VCC" V 4540 10703 50  0000 L CNN
-F 2 "" H 4525 10575 50  0001 C CNN
-F 3 "" H 4525 10575 50  0001 C CNN
-	1    4525 10575
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4525 10575 4400 10575
-Wire Wire Line
-	4525 9675 4400 9675
-Text GLabel 5450 9725 0    50   Input ~ 0
-DB-
-Text GLabel 5450 9625 0    50   Input ~ 0
-DB+
-Text GLabel 5650 9625 2    50   Input ~ 0
-DA+
-Text GLabel 5650 9725 2    50   Input ~ 0
-DA-
-$Comp
-L power:VCC #PWR0104
-U 1 1 5FDD79BC
-P 5275 10200
-F 0 "#PWR0104" H 5275 10050 50  0001 C CNN
-F 1 "VCC" H 5290 10373 50  0000 C CNN
-F 2 "" H 5275 10200 50  0001 C CNN
-F 3 "" H 5275 10200 50  0001 C CNN
-	1    5275 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Polyfuse_Small F1
-U 1 1 5FDD8A49
-P 5550 10200
-F 0 "F1" V 5345 10200 50  0000 C CNN
-F 1 "500mA" V 5436 10200 50  0000 C CNN
-F 2 "Custom_Footprints:Fuse_1206_Annotated" H 5600 10000 50  0001 L CNN
-F 3 "~" H 5550 10200 50  0001 C CNN
-	1    5550 10200
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR0105
-U 1 1 5FDDA0DE
-P 5825 10200
-F 0 "#PWR0105" H 5825 10050 50  0001 C CNN
-F 1 "+5V" H 5840 10373 50  0000 C CNN
-F 2 "" H 5825 10200 50  0001 C CNN
-F 3 "" H 5825 10200 50  0001 C CNN
-	1    5825 10200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 10200 5825 10200
-Wire Wire Line
-	5450 10200 5275 10200
-$Comp
 L Power_Protection:PRTR5V0U2X ESD1
 U 1 1 5FDEC976
-P 4270 7500
-F 0 "ESD1" H 4470 7150 50  0000 L CNN
-F 1 "PRTR5V0U2X" H 4470 7075 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 4330 7500 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 4330 7500 50  0001 C CNN
-	1    4270 7500
+P 14520 1900
+F 0 "ESD1" H 14720 1550 50  0000 L CNN
+F 1 "PRTR5V0U2X" H 14720 1475 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 14580 1900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 14580 1900 50  0001 C CNN
+	1    14520 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0106
+L power:GND #PWR05
 U 1 1 5FDF1F50
-P 4270 8000
-F 0 "#PWR0106" H 4270 7750 50  0001 C CNN
-F 1 "GND" H 4275 7827 50  0000 C CNN
-F 2 "" H 4270 8000 50  0001 C CNN
-F 3 "" H 4270 8000 50  0001 C CNN
-	1    4270 8000
+P 14520 2400
+F 0 "#PWR05" H 14520 2150 50  0001 C CNN
+F 1 "GND" H 14525 2227 50  0000 C CNN
+F 2 "" H 14520 2400 50  0001 C CNN
+F 3 "" H 14520 2400 50  0001 C CNN
+	1    14520 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5FDF4362
-P 1900 8900
-F 0 "U1" H 2500 7350 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 2775 7250 50  0000 C CNN
-F 2 "Custom_Footprints:ATMEGA32U4_Annotated" H 1900 8900 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 1900 8900 50  0001 C CNN
-	1    1900 8900
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	3525 9225 6025 9225
-Wire Notes Line
-	6025 9225 6025 11050
-Wire Notes Line
-	6025 11050 3525 11050
-Wire Notes Line
-	3525 11050 3525 9225
-Text Notes 5750 9325 0    50   ~ 0
-USB C
-$Comp
-L Device:Resonator_Small Y1
-U 1 1 5FE6EE64
-P 1050 7700
-F 0 "Y1" V 875 7700 50  0000 C CNN
-F 1 "16MHz" V 1225 7700 50  0000 C CNN
-F 2 "Custom_Footprints:Resonator_3Pin_Annotated" H 1025 7700 50  0001 C CNN
-F 3 "~" H 1025 7700 50  0001 C CNN
-	1    1050 7700
-	0    1    1    0   
-$EndComp
-NoConn ~ 1300 8000
-Wire Wire Line
-	1300 7800 1150 7800
-Wire Wire Line
-	1300 7600 1150 7600
-Wire Wire Line
-	850  7400 775  7400
-Wire Wire Line
-	775  7400 775  7700
-Wire Wire Line
-	775  7700 850  7700
-Wire Wire Line
-	775  7700 775  7800
-Connection ~ 775  7700
-$Comp
-L power:GND #PWR0107
-U 1 1 5FE9488D
-P 775 7800
-F 0 "#PWR0107" H 775 7550 50  0001 C CNN
-F 1 "GND" H 780 7627 50  0000 C CNN
-F 2 "" H 775 7800 50  0001 C CNN
-F 3 "" H 775 7800 50  0001 C CNN
-	1    775  7800
-	1    0    0    -1  
-$EndComp
-Text GLabel 1300 8400 0    50   Input ~ 0
-DA+
-Text GLabel 1300 8500 0    50   Input ~ 0
-DA-
-$Comp
-L power:+5V #PWR0108
-U 1 1 5FEA47DE
-P 1100 8200
-F 0 "#PWR0108" H 1100 8050 50  0001 C CNN
-F 1 "+5V" H 1115 8373 50  0000 C CNN
-F 2 "" H 1100 8200 50  0001 C CNN
-F 3 "" H 1100 8200 50  0001 C CNN
-	1    1100 8200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 8200 1300 8200
-Wire Wire Line
-	1250 7400 1275 7400
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5FE7FCB3
-P 1050 7400
-F 0 "SW1" H 1050 7685 50  0000 C CNN
-F 1 "RESET" H 1050 7594 50  0000 C CNN
-F 2 "Custom_Footprints:RESET_PADS" H 1050 7600 50  0001 C CNN
-F 3 "~" H 1050 7600 50  0001 C CNN
-	1    1050 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0109
-U 1 1 5FEB5478
-P 1900 7025
-F 0 "#PWR0109" H 1900 6875 50  0001 C CNN
-F 1 "+5V" H 1915 7198 50  0000 C CNN
-F 2 "" H 1900 7025 50  0001 C CNN
-F 3 "" H 1900 7025 50  0001 C CNN
-	1    1900 7025
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 7025 1800 7025
-Wire Wire Line
-	1800 7025 1800 7100
-Wire Wire Line
-	1900 7025 2000 7025
-Wire Wire Line
-	2000 7025 2000 7100
-Connection ~ 1900 7025
-Wire Wire Line
-	1900 7100 1900 7025
-$Comp
-L power:GND #PWR0110
-U 1 1 5FECAADA
-P 1850 10800
-F 0 "#PWR0110" H 1850 10550 50  0001 C CNN
-F 1 "GND" H 1855 10627 50  0000 C CNN
-F 2 "" H 1850 10800 50  0001 C CNN
-F 3 "" H 1850 10800 50  0001 C CNN
-	1    1850 10800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 10800 1800 10800
-Wire Wire Line
-	1800 10800 1800 10700
-Wire Wire Line
-	1850 10800 1900 10800
-Wire Wire Line
-	1900 10800 1900 10700
-Connection ~ 1850 10800
-$Comp
-L Device:R_Small R2
-U 1 1 5FEDF25E
-P 2725 9500
-F 0 "R2" V 2650 9500 25  0000 C CNN
-F 1 "10kΩ" V 2725 9500 25  0000 C CNN
-F 2 "Custom_Footprints:R_0603_Annotated" H 2725 9500 50  0001 C CNN
-F 3 "~" H 2725 9500 50  0001 C CNN
-	1    2725 9500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R1
-U 1 1 5FEEABCC
-P 1275 7225
-F 0 "R1" H 1350 7325 25  0000 C CNN
-F 1 "10kΩ" V 1275 7225 25  0000 C CNN
-F 2 "Custom_Footprints:R_0603_Annotated" H 1275 7225 50  0001 C CNN
-F 3 "~" H 1275 7225 50  0001 C CNN
-	1    1275 7225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1275 7325 1275 7400
-Connection ~ 1275 7400
-Wire Wire Line
-	1275 7400 1300 7400
-Wire Wire Line
-	1275 7125 1275 7025
-$Comp
-L power:+5V #PWR0111
-U 1 1 5FEFC806
-P 1275 7025
-F 0 "#PWR0111" H 1275 6875 50  0001 C CNN
-F 1 "+5V" H 1290 7198 50  0000 C CNN
-F 2 "" H 1275 7025 50  0001 C CNN
-F 3 "" H 1275 7025 50  0001 C CNN
-	1    1275 7025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 5FEFEA58
-P 2950 9500
-F 0 "#PWR0112" H 2950 9250 50  0001 C CNN
-F 1 "GND" H 2955 9327 50  0000 C CNN
-F 2 "" H 2950 9500 50  0001 C CNN
-F 3 "" H 2950 9500 50  0001 C CNN
-	1    2950 9500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2825 9500 2950 9500
-Wire Wire Line
-	2625 9500 2500 9500
-$Comp
-L Device:C_Small C5
-U 1 1 5FF0CD6B
-P 1125 8975
-F 0 "C5" H 1217 9001 25  0000 L CNN
-F 1 "1µF" H 1217 8949 25  0000 L CNN
-F 2 "Custom_Footprints:C_0603_Annotated" H 1125 8975 50  0001 C CNN
-F 3 "~" H 1125 8975 50  0001 C CNN
-	1    1125 8975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1125 8875 1125 8700
-Wire Wire Line
-	1125 8700 1300 8700
-$Comp
-L power:GND #PWR0113
-U 1 1 5FF15A88
-P 1125 9200
-F 0 "#PWR0113" H 1125 8950 50  0001 C CNN
-F 1 "GND" H 1130 9027 50  0000 C CNN
-F 2 "" H 1125 9200 50  0001 C CNN
-F 3 "" H 1125 9200 50  0001 C CNN
-	1    1125 9200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1125 9200 1125 9075
 $Comp
 L Device:C_Small C1
 U 1 1 5FF1D678
-P 3675 8725
-F 0 "C1" H 3767 8751 25  0000 L CNN
-F 1 "10µF" H 3767 8699 25  0000 L CNN
-F 2 "Custom_Footprints:C_0603_Annotated" H 3675 8725 50  0001 C CNN
-F 3 "~" H 3675 8725 50  0001 C CNN
-	1    3675 8725
+P 13925 3125
+F 0 "C1" H 14017 3151 25  0000 L CNN
+F 1 "10µF" H 14017 3099 25  0000 L CNN
+F 2 "Custom_Footprints:C_0603_Annotated" H 13925 3125 50  0001 C CNN
+F 3 "~" H 13925 3125 50  0001 C CNN
+	1    13925 3125
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C2
 U 1 1 5FF238E7
-P 3950 8725
-F 0 "C2" H 4042 8751 25  0000 L CNN
-F 1 "100nF" H 4042 8699 25  0000 L CNN
-F 2 "Custom_Footprints:C_0603_Annotated" H 3950 8725 50  0001 C CNN
-F 3 "~" H 3950 8725 50  0001 C CNN
-	1    3950 8725
+P 14200 3125
+F 0 "C2" H 14292 3151 25  0000 L CNN
+F 1 "100nF" H 14292 3099 25  0000 L CNN
+F 2 "Custom_Footprints:C_0603_Annotated" H 14200 3125 50  0001 C CNN
+F 3 "~" H 14200 3125 50  0001 C CNN
+	1    14200 3125
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C3
 U 1 1 5FF29C94
-P 4250 8725
-F 0 "C3" H 4342 8751 25  0000 L CNN
-F 1 "100nF" H 4342 8699 25  0000 L CNN
-F 2 "Custom_Footprints:C_0603_Annotated" H 4250 8725 50  0001 C CNN
-F 3 "~" H 4250 8725 50  0001 C CNN
-	1    4250 8725
+P 14500 3125
+F 0 "C3" H 14592 3151 25  0000 L CNN
+F 1 "100nF" H 14592 3099 25  0000 L CNN
+F 2 "Custom_Footprints:C_0603_Annotated" H 14500 3125 50  0001 C CNN
+F 3 "~" H 14500 3125 50  0001 C CNN
+	1    14500 3125
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C4
 U 1 1 5FF2FFA4
-P 4550 8725
-F 0 "C4" H 4642 8751 25  0000 L CNN
-F 1 "100nF" H 4642 8699 25  0000 L CNN
-F 2 "Custom_Footprints:C_0603_Annotated" H 4550 8725 50  0001 C CNN
-F 3 "~" H 4550 8725 50  0001 C CNN
-	1    4550 8725
+P 14800 3125
+F 0 "C4" H 14892 3151 25  0000 L CNN
+F 1 "100nF" H 14892 3099 25  0000 L CNN
+F 2 "Custom_Footprints:C_0603_Annotated" H 14800 3125 50  0001 C CNN
+F 3 "~" H 14800 3125 50  0001 C CNN
+	1    14800 3125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3675 8825 3675 8875
+	13925 3225 13925 3275
 Wire Wire Line
-	3675 8875 3950 8875
+	13925 3275 14200 3275
 Wire Wire Line
-	4550 8875 4550 8825
+	14800 3275 14800 3225
 Wire Wire Line
-	3675 8625 3675 8575
+	13925 3025 13925 2975
 Wire Wire Line
-	3675 8575 3950 8575
+	13925 2975 14200 2975
 Wire Wire Line
-	4550 8575 4550 8625
+	14800 2975 14800 3025
 Wire Wire Line
-	4250 8625 4250 8575
-Connection ~ 4250 8575
+	14500 3025 14500 2975
+Connection ~ 14500 2975
 Wire Wire Line
-	4250 8575 4550 8575
+	14500 2975 14800 2975
 Wire Wire Line
-	3950 8625 3950 8575
-Connection ~ 3950 8575
+	14200 3025 14200 2975
+Connection ~ 14200 2975
 Wire Wire Line
-	3950 8825 3950 8875
-Connection ~ 3950 8875
+	14200 3225 14200 3275
+Connection ~ 14200 3275
 Wire Wire Line
-	4250 8825 4250 8875
-Connection ~ 4250 8875
+	14500 3225 14500 3275
+Connection ~ 14500 3275
 Wire Wire Line
-	4250 8875 4550 8875
+	14500 3275 14800 3275
 $Comp
-L power:GND #PWR0114
+L power:GND #PWR09
 U 1 1 5FF6B3DB
-P 4550 8875
-F 0 "#PWR0114" H 4550 8625 50  0001 C CNN
-F 1 "GND" H 4555 8702 50  0000 C CNN
-F 2 "" H 4550 8875 50  0001 C CNN
-F 3 "" H 4550 8875 50  0001 C CNN
-	1    4550 8875
+P 14800 3275
+F 0 "#PWR09" H 14800 3025 50  0001 C CNN
+F 1 "GND" H 14805 3102 50  0000 C CNN
+F 2 "" H 14800 3275 50  0001 C CNN
+F 3 "" H 14800 3275 50  0001 C CNN
+	1    14800 3275
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0115
+L power:+5V #PWR07
 U 1 1 5FF6C610
-P 3675 8575
-F 0 "#PWR0115" H 3675 8425 50  0001 C CNN
-F 1 "+5V" H 3690 8748 50  0000 C CNN
-F 2 "" H 3675 8575 50  0001 C CNN
-F 3 "" H 3675 8575 50  0001 C CNN
-	1    3675 8575
+P 13925 2975
+F 0 "#PWR07" H 13925 2825 50  0001 C CNN
+F 1 "+5V" H 13940 3148 50  0000 C CNN
+F 2 "" H 13925 2975 50  0001 C CNN
+F 3 "" H 13925 2975 50  0001 C CNN
+	1    13925 2975
 	1    0    0    -1  
 $EndComp
-Connection ~ 4550 8875
+Connection ~ 14800 3275
 Wire Wire Line
-	3950 8875 4250 8875
-Connection ~ 3675 8575
+	14200 3275 14500 3275
+Connection ~ 13925 2975
 Wire Wire Line
-	3950 8575 4250 8575
+	14200 2975 14500 2975
 Wire Notes Line
-	3525 9100 5000 9100
+	13775 3500 15250 3500
 Wire Notes Line
-	5000 9100 5000 8325
+	15250 3500 15250 2725
 Wire Notes Line
-	5000 8325 3525 8325
+	15250 2725 13775 2725
 Wire Notes Line
-	3525 8325 3525 9100
-Text Notes 4125 8400 0    50   ~ 0
+	13775 2725 13775 3500
+Text Notes 14375 2800 0    50   ~ 0
 Decoupling Capacitors 
-Wire Notes Line
-	3400 11050 625  11050
-Wire Notes Line
-	625  11050 625  6800
-Wire Notes Line
-	625  6800 3400 6800
-Wire Notes Line
-	3400 6800 3400 11050
-Text Notes 2825 6875 0    50   ~ 0
-Microcontroller
-Connection ~ 11125 1400
-Wire Wire Line
-	11125 875  11125 1400
-Wire Wire Line
-	11125 1400 11125 1975
-Wire Wire Line
-	11125 825  11125 875 
-Connection ~ 11125 875 
 $Comp
-L power:VCC #PWR0116
+L power:VCC #PWR01
 U 1 1 60051524
-P 4270 7000
-F 0 "#PWR0116" H 4270 6850 50  0001 C CNN
-F 1 "VCC" H 4285 7173 50  0000 C CNN
-F 2 "" H 4270 7000 50  0001 C CNN
-F 3 "" H 4270 7000 50  0001 C CNN
-	1    4270 7000
+P 14520 1400
+F 0 "#PWR01" H 14520 1250 50  0001 C CNN
+F 1 "VCC" H 14535 1573 50  0000 C CNN
+F 2 "" H 14520 1400 50  0001 C CNN
+F 3 "" H 14520 1400 50  0001 C CNN
+	1    14520 1400
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	3525 8200 5000 8200
+	13775 2600 15250 2600
 Wire Notes Line
-	5000 8200 5000 6800
+	15250 2600 15250 1200
 Wire Notes Line
-	5000 6800 3525 6800
+	15250 1200 13775 1200
 Wire Notes Line
-	3525 6800 3525 8200
-Text Notes 4425 6875 0    50   ~ 0
+	13775 1200 13775 2600
+Text Notes 14675 1275 0    50   ~ 0
 ESD Protection
-Text GLabel 3770 7500 0    50   Input ~ 0
+Text GLabel 14020 1900 0    50   Input ~ 0
 DB-
-Text GLabel 4770 7500 2    50   Input ~ 0
+Text GLabel 15020 1900 2    50   Input ~ 0
 DB+
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 600D2EB9
+P 15650 3250
+F 0 "J1" H 15542 2825 50  0000 C CNN
+F 1 "OLED" H 15542 2916 50  0000 C CNN
+F 2 "Custom_Footprints:SSD1306_OLED" H 15650 3250 50  0001 C CNN
+F 3 "~" H 15650 3250 50  0001 C CNN
+	1    15650 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 600D5884
+P 15850 3350
+F 0 "#PWR010" H 15850 3100 50  0001 C CNN
+F 1 "GND" V 15855 3222 50  0000 R CNN
+F 2 "" H 15850 3350 50  0001 C CNN
+F 3 "" H 15850 3350 50  0001 C CNN
+	1    15850 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR08
+U 1 1 600D5DE7
+P 15850 3250
+F 0 "#PWR08" H 15850 3100 50  0001 C CNN
+F 1 "+5V" V 15865 3378 50  0000 L CNN
+F 2 "" H 15850 3250 50  0001 C CNN
+F 3 "" H 15850 3250 50  0001 C CNN
+	1    15850 3250
+	0    1    1    0   
+$EndComp
+Text GLabel 15850 3150 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 15850 3050 2    50   Input ~ 0
+I2C_SDA
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5FDF4362
+P 12050 3300
+F 0 "U1" H 12650 1750 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 12925 1650 50  0000 C CNN
+F 2 "Custom_Footprints:ATMEGA32U4_Annotated" H 12050 3300 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 12050 3300 50  0001 C CNN
+	1    12050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Resonator_Small Y1
+U 1 1 5FE6EE64
+P 11200 2100
+F 0 "Y1" V 11025 2100 50  0000 C CNN
+F 1 "16MHz" V 11375 2100 50  0000 C CNN
+F 2 "Custom_Footprints:Resonator_3Pin_Annotated" H 11175 2100 50  0001 C CNN
+F 3 "~" H 11175 2100 50  0001 C CNN
+	1    11200 2100
+	0    1    1    0   
+$EndComp
+NoConn ~ 11450 2400
+Wire Wire Line
+	11450 2200 11300 2200
+Wire Wire Line
+	11450 2000 11300 2000
+Wire Wire Line
+	11000 1800 10925 1800
+Wire Wire Line
+	10925 1800 10925 2100
+Wire Wire Line
+	10925 2100 11000 2100
+Wire Wire Line
+	10925 2100 10925 2200
+Connection ~ 10925 2100
+$Comp
+L power:GND #PWR04
+U 1 1 5FE9488D
+P 10925 2200
+F 0 "#PWR04" H 10925 1950 50  0001 C CNN
+F 1 "GND" H 10930 2027 50  0000 C CNN
+F 2 "" H 10925 2200 50  0001 C CNN
+F 3 "" H 10925 2200 50  0001 C CNN
+	1    10925 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 11450 2800 0    50   Input ~ 0
+DA+
+Text GLabel 11450 2900 0    50   Input ~ 0
+DA-
+$Comp
+L power:+5V #PWR06
+U 1 1 5FEA47DE
+P 11250 2600
+F 0 "#PWR06" H 11250 2450 50  0001 C CNN
+F 1 "+5V" H 11265 2773 50  0000 C CNN
+F 2 "" H 11250 2600 50  0001 C CNN
+F 3 "" H 11250 2600 50  0001 C CNN
+	1    11250 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 2600 11450 2600
+Wire Wire Line
+	11400 1800 11425 1800
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FE7FCB3
+P 11200 1800
+F 0 "SW1" H 11200 2085 50  0000 C CNN
+F 1 "RESET" H 11200 1994 50  0000 C CNN
+F 2 "Custom_Footprints:RESET_PADS" H 11200 2000 50  0001 C CNN
+F 3 "~" H 11200 2000 50  0001 C CNN
+	1    11200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5FEB5478
+P 12050 1425
+F 0 "#PWR03" H 12050 1275 50  0001 C CNN
+F 1 "+5V" H 12065 1598 50  0000 C CNN
+F 2 "" H 12050 1425 50  0001 C CNN
+F 3 "" H 12050 1425 50  0001 C CNN
+	1    12050 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 1425 11950 1425
+Wire Wire Line
+	11950 1425 11950 1500
+Wire Wire Line
+	12050 1425 12150 1425
+Wire Wire Line
+	12150 1425 12150 1500
+Connection ~ 12050 1425
+Wire Wire Line
+	12050 1500 12050 1425
+$Comp
+L Device:R_Small R2
+U 1 1 5FEDF25E
+P 12875 3900
+F 0 "R2" V 12800 3900 25  0000 C CNN
+F 1 "10kΩ" V 12875 3900 25  0000 C CNN
+F 2 "Custom_Footprints:R_0603_Annotated" H 12875 3900 50  0001 C CNN
+F 3 "~" H 12875 3900 50  0001 C CNN
+	1    12875 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5FEEABCC
+P 11425 1625
+F 0 "R1" H 11500 1725 25  0000 C CNN
+F 1 "10kΩ" V 11425 1625 25  0000 C CNN
+F 2 "Custom_Footprints:R_0603_Annotated" H 11425 1625 50  0001 C CNN
+F 3 "~" H 11425 1625 50  0001 C CNN
+	1    11425 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11425 1725 11425 1800
+Connection ~ 11425 1800
+Wire Wire Line
+	11425 1800 11450 1800
+Wire Wire Line
+	11425 1525 11425 1425
+$Comp
+L power:+5V #PWR02
+U 1 1 5FEFC806
+P 11425 1425
+F 0 "#PWR02" H 11425 1275 50  0001 C CNN
+F 1 "+5V" H 11440 1598 50  0000 C CNN
+F 2 "" H 11425 1425 50  0001 C CNN
+F 3 "" H 11425 1425 50  0001 C CNN
+	1    11425 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5FEFEA58
+P 13100 3900
+F 0 "#PWR012" H 13100 3650 50  0001 C CNN
+F 1 "GND" H 13105 3727 50  0000 C CNN
+F 2 "" H 13100 3900 50  0001 C CNN
+F 3 "" H 13100 3900 50  0001 C CNN
+	1    13100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12975 3900 13100 3900
+Wire Wire Line
+	12775 3900 12650 3900
+$Comp
+L Device:C_Small C5
+U 1 1 5FF0CD6B
+P 11275 3375
+F 0 "C5" H 11367 3401 25  0000 L CNN
+F 1 "1µF" H 11367 3349 25  0000 L CNN
+F 2 "Custom_Footprints:C_0603_Annotated" H 11275 3375 50  0001 C CNN
+F 3 "~" H 11275 3375 50  0001 C CNN
+	1    11275 3375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11275 3275 11275 3100
+Wire Wire Line
+	11275 3100 11450 3100
+$Comp
+L power:GND #PWR011
+U 1 1 5FF15A88
+P 11275 3600
+F 0 "#PWR011" H 11275 3350 50  0001 C CNN
+F 1 "GND" H 11280 3427 50  0000 C CNN
+F 2 "" H 11275 3600 50  0001 C CNN
+F 3 "" H 11275 3600 50  0001 C CNN
+	1    11275 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11275 3600 11275 3475
+Wire Notes Line
+	13550 5450 10775 5450
+Wire Notes Line
+	10775 5450 10775 1200
+Wire Notes Line
+	10775 1200 13550 1200
+Wire Notes Line
+	13550 1200 13550 5450
+Text Notes 12975 1275 0    50   ~ 0
+Microcontroller
+Text GLabel 12650 3000 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 12650 3100 2    50   Input ~ 0
+I2C_SDA
+Connection ~ 9050 4025
+Connection ~ 9050 3450
+Connection ~ 9050 2875
+Connection ~ 8450 5175
+Connection ~ 8450 4600
+Connection ~ 8450 4025
+Connection ~ 8450 3450
+Connection ~ 8450 2875
+Connection ~ 7850 5175
+Connection ~ 7850 4600
+Connection ~ 7850 4025
+Connection ~ 7850 3450
+Connection ~ 7850 2875
+Connection ~ 7850 2300
+Connection ~ 7250 5175
+Connection ~ 7250 4600
+Connection ~ 7250 4025
+Connection ~ 7250 3450
+Connection ~ 7250 2875
+Connection ~ 7250 2300
+Connection ~ 6650 5175
+Connection ~ 6650 4600
+Connection ~ 6650 4025
+Connection ~ 6650 3450
+Connection ~ 6650 2875
+Connection ~ 6650 2300
+Connection ~ 6050 5175
+Connection ~ 6050 4600
+Connection ~ 6050 4025
+Connection ~ 6050 3450
+Connection ~ 6050 2875
+Connection ~ 6050 2300
+Connection ~ 5450 4600
+Connection ~ 5450 4025
+Connection ~ 5450 3450
+Connection ~ 5450 2875
+Connection ~ 5450 2300
+Connection ~ 4850 5175
+Connection ~ 4850 4600
+Connection ~ 4850 4025
+Connection ~ 4850 3450
+Connection ~ 4850 2875
+Connection ~ 4850 2300
+Connection ~ 4250 4600
+Connection ~ 4250 4025
+Connection ~ 4250 3450
+Connection ~ 4250 2875
+Connection ~ 4250 2300
+Connection ~ 3650 4600
+Connection ~ 3650 4025
+Connection ~ 3650 3450
+Connection ~ 3650 2875
+Connection ~ 3650 2300
+Connection ~ 3050 4600
+Connection ~ 3050 4025
+Connection ~ 3050 3450
+Connection ~ 3050 2875
+Connection ~ 3050 2300
+Connection ~ 2450 5175
+Connection ~ 2450 4600
+Connection ~ 2450 4025
+Connection ~ 2450 3450
+Connection ~ 2450 2875
+Connection ~ 2450 2300
+Connection ~ 1850 5175
+Connection ~ 1850 4600
+Connection ~ 1850 4025
+Connection ~ 1850 3450
+Connection ~ 1850 2875
+Connection ~ 1850 2300
+Wire Wire Line
+	9050 4025 9650 4025
+Wire Wire Line
+	9050 3450 9650 3450
+Wire Wire Line
+	9050 2875 9650 2875
+Wire Wire Line
+	10050 4400 10050 3825
+Connection ~ 10050 4400
+Wire Wire Line
+	10050 3825 10050 3250
+Connection ~ 10050 3825
+Wire Wire Line
+	10050 3250 10050 2675
+Connection ~ 10050 3250
+Connection ~ 10050 2675
+Wire Wire Line
+	10050 4975 10050 4400
+$Comp
+L Device:D_Small D82
+U 1 1 5FF7E7FC
+P 9650 5075
+F 0 "D82" V 9650 5005 50  0000 R CNN
+F 1 "D_Small" V 9695 5145 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 9650 5075 50  0001 C CNN
+F 3 "~" V 9650 5075 50  0001 C CNN
+	1    9650 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_82
+U 1 1 5FF7E7F6
+P 9850 4975
+F 0 "K_82" H 9850 5260 50  0000 C CNN
+F 1 "KC_RGHT" H 9850 5169 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9850 5175 50  0001 C CNN
+F 3 "~" H 9850 5175 50  0001 C CNN
+	1    9850 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D72
+U 1 1 5FF7E7F0
+P 9650 4500
+F 0 "D72" V 9650 4430 50  0000 R CNN
+F 1 "D_Small" V 9695 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 9650 4500 50  0001 C CNN
+F 3 "~" V 9650 4500 50  0001 C CNN
+	1    9650 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_72
+U 1 1 5FF7E7EA
+P 9850 4400
+F 0 "K_72" H 9850 4685 50  0000 C CNN
+F 1 "KC_END" H 9850 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9850 4600 50  0001 C CNN
+F 3 "~" H 9850 4600 50  0001 C CNN
+	1    9850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D58
+U 1 1 5FF7E7E4
+P 9650 3925
+F 0 "D58" V 9650 3855 50  0000 R CNN
+F 1 "D_Small" V 9695 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 9650 3925 50  0001 C CNN
+F 3 "~" V 9650 3925 50  0001 C CNN
+	1    9650 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_58
+U 1 1 5FF7E7DE
+P 9850 3825
+F 0 "K_58" H 9850 4110 50  0000 C CNN
+F 1 "KC_HOME" H 9850 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9850 4025 50  0001 C CNN
+F 3 "~" H 9850 4025 50  0001 C CNN
+	1    9850 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D43
+U 1 1 5FF7E7D8
+P 9650 3350
+F 0 "D43" V 9650 3280 50  0000 R CNN
+F 1 "D_Small" V 9695 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 9650 3350 50  0001 C CNN
+F 3 "~" V 9650 3350 50  0001 C CNN
+	1    9650 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_43
+U 1 1 5FF7E7D2
+P 9850 3250
+F 0 "K_43" H 9850 3535 50  0000 C CNN
+F 1 "KC_INS" H 9850 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9850 3450 50  0001 C CNN
+F 3 "~" H 9850 3450 50  0001 C CNN
+	1    9850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 5FF7E7CC
+P 9650 2775
+F 0 "D28" V 9650 2705 50  0000 R CNN
+F 1 "D_Small" V 9695 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 9650 2775 50  0001 C CNN
+F 3 "~" V 9650 2775 50  0001 C CNN
+	1    9650 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_28
+U 1 1 5FF7E7C6
+P 9850 2675
+F 0 "K_28" H 9850 2960 50  0000 C CNN
+F 1 "KC_DEL" H 9850 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9850 2875 50  0001 C CNN
+F 3 "~" H 9850 2875 50  0001 C CNN
+	1    9850 2675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4025 9050 4025
+Wire Wire Line
+	8450 3450 9050 3450
+Wire Wire Line
+	8450 2875 9050 2875
+Wire Wire Line
+	9450 3825 9450 3250
+Wire Wire Line
+	9450 3250 9450 2675
+Connection ~ 9450 3250
+Wire Wire Line
+	9450 2675 9450 2650
+Connection ~ 9450 2675
+$Comp
+L Device:D_Small D57
+U 1 1 5FF7E78B
+P 9050 3925
+F 0 "D57" V 9050 3855 50  0000 R CNN
+F 1 "D_Small" V 9095 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 9050 3925 50  0001 C CNN
+F 3 "~" V 9050 3925 50  0001 C CNN
+	1    9050 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_57
+U 1 1 5FF7E785
+P 9250 3825
+F 0 "K_57" H 9250 4110 50  0000 C CNN
+F 1 "KC_BSLS" H 9250 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9250 4025 50  0001 C CNN
+F 3 "~" H 9250 4025 50  0001 C CNN
+	1    9250 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D42
+U 1 1 5FF7E77F
+P 9050 3350
+F 0 "D42" V 9050 3280 50  0000 R CNN
+F 1 "D_Small" V 9095 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 9050 3350 50  0001 C CNN
+F 3 "~" V 9050 3350 50  0001 C CNN
+	1    9050 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_42
+U 1 1 5FF7E779
+P 9250 3250
+F 0 "K_42" H 9250 3535 50  0000 C CNN
+F 1 "KC_BSLS" H 9250 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 9250 3450 50  0001 C CNN
+F 3 "~" H 9250 3450 50  0001 C CNN
+	1    9250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 5FF7E773
+P 9050 2775
+F 0 "D27" V 9050 2705 50  0000 R CNN
+F 1 "D_Small" V 9095 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 9050 2775 50  0001 C CNN
+F 3 "~" V 9050 2775 50  0001 C CNN
+	1    9050 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_27
+U 1 1 5FF7E76D
+P 9250 2675
+F 0 "K_27" H 9250 2960 50  0000 C CNN
+F 1 "KC_BSPC" H 9250 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-2U-NoLED" H 9250 2875 50  0001 C CNN
+F 3 "~" H 9250 2875 50  0001 C CNN
+	1    9250 2675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5175 8450 5175
+Wire Wire Line
+	7850 4600 8450 4600
+Wire Wire Line
+	7850 4025 8450 4025
+Wire Wire Line
+	7850 3450 8450 3450
+Wire Wire Line
+	7850 2875 8450 2875
+Wire Wire Line
+	7850 2300 8450 2300
+Wire Wire Line
+	8850 4400 8850 3825
+Connection ~ 8850 4400
+Wire Wire Line
+	8850 3825 8850 3250
+Connection ~ 8850 3825
+Wire Wire Line
+	8850 3250 8850 2675
+Connection ~ 8850 3250
+Wire Wire Line
+	8850 2675 8850 2100
+Connection ~ 8850 2675
+Wire Wire Line
+	8850 2100 8850 1900
+Connection ~ 8850 2100
+Wire Wire Line
+	8850 4975 8850 4400
+$Comp
+L Device:D_Small D81
+U 1 1 5FF63CA0
+P 8450 5075
+F 0 "D81" V 8450 5005 50  0000 R CNN
+F 1 "D_Small" V 8495 5145 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 8450 5075 50  0001 C CNN
+F 3 "~" V 8450 5075 50  0001 C CNN
+	1    8450 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_81
+U 1 1 5FF63C9A
+P 8650 4975
+F 0 "K_81" H 8650 5260 50  0000 C CNN
+F 1 "KC_DOWN" H 8650 5169 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8650 5175 50  0001 C CNN
+F 3 "~" H 8650 5175 50  0001 C CNN
+	1    8650 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D71
+U 1 1 5FF63C94
+P 8450 4500
+F 0 "D71" V 8450 4430 50  0000 R CNN
+F 1 "D_Small" V 8495 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 8450 4500 50  0001 C CNN
+F 3 "~" V 8450 4500 50  0001 C CNN
+	1    8450 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_71
+U 1 1 5FF63C8E
+P 8650 4400
+F 0 "K_71" H 8650 4685 50  0000 C CNN
+F 1 "KC_UP" H 8650 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8650 4600 50  0001 C CNN
+F 3 "~" H 8650 4600 50  0001 C CNN
+	1    8650 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D56
+U 1 1 5FF63C88
+P 8450 3925
+F 0 "D56" V 8450 3855 50  0000 R CNN
+F 1 "D_Small" V 8495 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 8450 3925 50  0001 C CNN
+F 3 "~" V 8450 3925 50  0001 C CNN
+	1    8450 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_56
+U 1 1 5FF63C82
+P 8650 3825
+F 0 "K_56" H 8650 4110 50  0000 C CNN
+F 1 "KC_ENT" H 8650 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-2.25U-NoLED" H 8650 4025 50  0001 C CNN
+F 3 "~" H 8650 4025 50  0001 C CNN
+	1    8650 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D41
+U 1 1 5FF63C7C
+P 8450 3350
+F 0 "D41" V 8450 3280 50  0000 R CNN
+F 1 "D_Small" V 8495 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 8450 3350 50  0001 C CNN
+F 3 "~" V 8450 3350 50  0001 C CNN
+	1    8450 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_41
+U 1 1 5FF63C76
+P 8650 3250
+F 0 "K_41" H 8650 3535 50  0000 C CNN
+F 1 "KC_RBRC" H 8650 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8650 3450 50  0001 C CNN
+F 3 "~" H 8650 3450 50  0001 C CNN
+	1    8650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 5FF63C70
+P 8450 2775
+F 0 "D26" V 8450 2705 50  0000 R CNN
+F 1 "D_Small" V 8495 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 8450 2775 50  0001 C CNN
+F 3 "~" V 8450 2775 50  0001 C CNN
+	1    8450 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_26
+U 1 1 5FF63C6A
+P 8650 2675
+F 0 "K_26" H 8650 2960 50  0000 C CNN
+F 1 "KC_EQL" H 8650 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8650 2875 50  0001 C CNN
+F 3 "~" H 8650 2875 50  0001 C CNN
+	1    8650 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 5FF63C64
+P 8450 2200
+F 0 "D13" V 8450 2130 50  0000 R CNN
+F 1 "D_Small" V 8495 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 8450 2200 50  0001 C CNN
+F 3 "~" V 8450 2200 50  0001 C CNN
+	1    8450 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_13
+U 1 1 5FF63C5E
+P 8650 2100
+F 0 "K_13" H 8650 2385 50  0000 C CNN
+F 1 "KC_F12" H 8650 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8650 2300 50  0001 C CNN
+F 3 "~" H 8650 2300 50  0001 C CNN
+	1    8650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5175 7850 5175
+Wire Wire Line
+	7250 4600 7850 4600
+Wire Wire Line
+	7250 4025 7850 4025
+Wire Wire Line
+	7250 3450 7850 3450
+Wire Wire Line
+	7250 2875 7850 2875
+Wire Wire Line
+	7250 2300 7850 2300
+Wire Wire Line
+	8250 4400 8250 3825
+Connection ~ 8250 4400
+Wire Wire Line
+	8250 3825 8250 3250
+Connection ~ 8250 3825
+Wire Wire Line
+	8250 3250 8250 2675
+Connection ~ 8250 3250
+Wire Wire Line
+	8250 2675 8250 2100
+Connection ~ 8250 2675
+Wire Wire Line
+	8250 2100 8250 1900
+Connection ~ 8250 2100
+Wire Wire Line
+	8250 4975 8250 4400
+$Comp
+L Device:D_Small D80
+U 1 1 5FF63C47
+P 7850 5075
+F 0 "D80" V 7850 5005 50  0000 R CNN
+F 1 "D_Small" V 7895 5145 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7850 5075 50  0001 C CNN
+F 3 "~" V 7850 5075 50  0001 C CNN
+	1    7850 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_80
+U 1 1 5FF63C41
+P 8050 4975
+F 0 "K_80" H 8050 5260 50  0000 C CNN
+F 1 "KC_LEFT" H 8050 5169 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8050 5175 50  0001 C CNN
+F 3 "~" H 8050 5175 50  0001 C CNN
+	1    8050 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D70
+U 1 1 5FF63C3B
+P 7850 4500
+F 0 "D70" V 7850 4430 50  0000 R CNN
+F 1 "D_Small" V 7895 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7850 4500 50  0001 C CNN
+F 3 "~" V 7850 4500 50  0001 C CNN
+	1    7850 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_70
+U 1 1 5FF63C35
+P 8050 4400
+F 0 "K_70" H 8050 4685 50  0000 C CNN
+F 1 "KC_RSFT" H 8050 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1.75U-NoLED" H 8050 4600 50  0001 C CNN
+F 3 "~" H 8050 4600 50  0001 C CNN
+	1    8050 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D55
+U 1 1 5FF63C2F
+P 7850 3925
+F 0 "D55" V 7850 3855 50  0000 R CNN
+F 1 "D_Small" V 7895 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7850 3925 50  0001 C CNN
+F 3 "~" V 7850 3925 50  0001 C CNN
+	1    7850 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_55
+U 1 1 5FF63C29
+P 8050 3825
+F 0 "K_55" H 8050 4110 50  0000 C CNN
+F 1 "KC_QUOT" H 8050 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8050 4025 50  0001 C CNN
+F 3 "~" H 8050 4025 50  0001 C CNN
+	1    8050 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D40
+U 1 1 5FF63C23
+P 7850 3350
+F 0 "D40" V 7850 3280 50  0000 R CNN
+F 1 "D_Small" V 7895 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7850 3350 50  0001 C CNN
+F 3 "~" V 7850 3350 50  0001 C CNN
+	1    7850 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_40
+U 1 1 5FF63C1D
+P 8050 3250
+F 0 "K_40" H 8050 3535 50  0000 C CNN
+F 1 "KC_LBRC" H 8050 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8050 3450 50  0001 C CNN
+F 3 "~" H 8050 3450 50  0001 C CNN
+	1    8050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D25
+U 1 1 5FF63C17
+P 7850 2775
+F 0 "D25" V 7850 2705 50  0000 R CNN
+F 1 "D_Small" V 7895 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7850 2775 50  0001 C CNN
+F 3 "~" V 7850 2775 50  0001 C CNN
+	1    7850 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_25
+U 1 1 5FF63C11
+P 8050 2675
+F 0 "K_25" H 8050 2960 50  0000 C CNN
+F 1 "KC_MINS" H 8050 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8050 2875 50  0001 C CNN
+F 3 "~" H 8050 2875 50  0001 C CNN
+	1    8050 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 5FF63C0B
+P 7850 2200
+F 0 "D12" V 7850 2130 50  0000 R CNN
+F 1 "D_Small" V 7895 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7850 2200 50  0001 C CNN
+F 3 "~" V 7850 2200 50  0001 C CNN
+	1    7850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_12
+U 1 1 5FF63C05
+P 8050 2100
+F 0 "K_12" H 8050 2385 50  0000 C CNN
+F 1 "KC_F11" H 8050 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8050 2300 50  0001 C CNN
+F 3 "~" H 8050 2300 50  0001 C CNN
+	1    8050 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5175 7250 5175
+Wire Wire Line
+	6650 4600 7250 4600
+Wire Wire Line
+	6650 4025 7250 4025
+Wire Wire Line
+	6650 3450 7250 3450
+Wire Wire Line
+	6650 2875 7250 2875
+Wire Wire Line
+	6650 2300 7250 2300
+Wire Wire Line
+	7650 4400 7650 3825
+Connection ~ 7650 4400
+Wire Wire Line
+	7650 3825 7650 3250
+Connection ~ 7650 3825
+Wire Wire Line
+	7650 3250 7650 2675
+Connection ~ 7650 3250
+Wire Wire Line
+	7650 2675 7650 2100
+Connection ~ 7650 2675
+Wire Wire Line
+	7650 2100 7650 1900
+Connection ~ 7650 2100
+$Comp
+L Device:D_Small D79
+U 1 1 5FF63BEE
+P 7250 5075
+F 0 "D79" V 7250 5005 50  0000 R CNN
+F 1 "D_Small" V 7295 5145 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7250 5075 50  0001 C CNN
+F 3 "~" V 7250 5075 50  0001 C CNN
+	1    7250 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_79
+U 1 1 5FF63BE8
+P 7450 4975
+F 0 "K_79" H 7450 5260 50  0000 C CNN
+F 1 "KC_RCTL" H 7450 5169 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 7450 5175 50  0001 C CNN
+F 3 "~" H 7450 5175 50  0001 C CNN
+	1    7450 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D69
+U 1 1 5FF63BE2
+P 7250 4500
+F 0 "D69" V 7250 4430 50  0000 R CNN
+F 1 "D_Small" V 7295 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7250 4500 50  0001 C CNN
+F 3 "~" V 7250 4500 50  0001 C CNN
+	1    7250 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_69
+U 1 1 5FF63BDC
+P 7450 4400
+F 0 "K_69" H 7450 4685 50  0000 C CNN
+F 1 "KC_SLSH" H 7450 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 7450 4600 50  0001 C CNN
+F 3 "~" H 7450 4600 50  0001 C CNN
+	1    7450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D54
+U 1 1 5FF63BD6
+P 7250 3925
+F 0 "D54" V 7250 3855 50  0000 R CNN
+F 1 "D_Small" V 7295 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7250 3925 50  0001 C CNN
+F 3 "~" V 7250 3925 50  0001 C CNN
+	1    7250 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_54
+U 1 1 5FF63BD0
+P 7450 3825
+F 0 "K_54" H 7450 4110 50  0000 C CNN
+F 1 "KC_SCLN" H 7450 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 7450 4025 50  0001 C CNN
+F 3 "~" H 7450 4025 50  0001 C CNN
+	1    7450 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D39
+U 1 1 5FF63BCA
+P 7250 3350
+F 0 "D39" V 7250 3280 50  0000 R CNN
+F 1 "D_Small" V 7295 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7250 3350 50  0001 C CNN
+F 3 "~" V 7250 3350 50  0001 C CNN
+	1    7250 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_39
+U 1 1 5FF63BC4
+P 7450 3250
+F 0 "K_39" H 7450 3535 50  0000 C CNN
+F 1 "KC_P" H 7450 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 7450 3450 50  0001 C CNN
+F 3 "~" H 7450 3450 50  0001 C CNN
+	1    7450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 5FF63BBE
+P 7250 2775
+F 0 "D24" V 7250 2705 50  0000 R CNN
+F 1 "D_Small" V 7295 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7250 2775 50  0001 C CNN
+F 3 "~" V 7250 2775 50  0001 C CNN
+	1    7250 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_24
+U 1 1 5FF63BB8
+P 7450 2675
+F 0 "K_24" H 7450 2960 50  0000 C CNN
+F 1 "KC_0" H 7450 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 7450 2875 50  0001 C CNN
+F 3 "~" H 7450 2875 50  0001 C CNN
+	1    7450 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 5FF63BB2
+P 7250 2200
+F 0 "D11" V 7250 2130 50  0000 R CNN
+F 1 "D_Small" V 7295 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 7250 2200 50  0001 C CNN
+F 3 "~" V 7250 2200 50  0001 C CNN
+	1    7250 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_11
+U 1 1 5FF63BAC
+P 7450 2100
+F 0 "K_11" H 7450 2385 50  0000 C CNN
+F 1 "KC_F10" H 7450 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 7450 2300 50  0001 C CNN
+F 3 "~" H 7450 2300 50  0001 C CNN
+	1    7450 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5175 6650 5175
+Wire Wire Line
+	6050 4600 6650 4600
+Wire Wire Line
+	6050 4025 6650 4025
+Wire Wire Line
+	6050 3450 6650 3450
+Wire Wire Line
+	6050 2875 6650 2875
+Wire Wire Line
+	6050 2300 6650 2300
+Wire Wire Line
+	7050 4400 7050 3825
+Connection ~ 7050 4400
+Wire Wire Line
+	7050 3825 7050 3250
+Connection ~ 7050 3825
+Wire Wire Line
+	7050 3250 7050 2675
+Connection ~ 7050 3250
+Wire Wire Line
+	7050 2675 7050 2100
+Connection ~ 7050 2675
+Wire Wire Line
+	7050 2100 7050 1900
+Connection ~ 7050 2100
+Wire Wire Line
+	7050 4975 7050 4400
+$Comp
+L Device:D_Small D78
+U 1 1 5FF48720
+P 6650 5075
+F 0 "D78" V 6650 5005 50  0000 R CNN
+F 1 "D_Small" V 6695 5145 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6650 5075 50  0001 C CNN
+F 3 "~" V 6650 5075 50  0001 C CNN
+	1    6650 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_78
+U 1 1 5FF4871A
+P 6850 4975
+F 0 "K_78" H 6850 5260 50  0000 C CNN
+F 1 "KC_RGUI" H 6850 5169 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6850 5175 50  0001 C CNN
+F 3 "~" H 6850 5175 50  0001 C CNN
+	1    6850 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D68
+U 1 1 5FF48714
+P 6650 4500
+F 0 "D68" V 6650 4430 50  0000 R CNN
+F 1 "D_Small" V 6695 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6650 4500 50  0001 C CNN
+F 3 "~" V 6650 4500 50  0001 C CNN
+	1    6650 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_68
+U 1 1 5FF4870E
+P 6850 4400
+F 0 "K_68" H 6850 4685 50  0000 C CNN
+F 1 "KC_DOT" H 6850 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6850 4600 50  0001 C CNN
+F 3 "~" H 6850 4600 50  0001 C CNN
+	1    6850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D53
+U 1 1 5FF48708
+P 6650 3925
+F 0 "D53" V 6650 3855 50  0000 R CNN
+F 1 "D_Small" V 6695 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6650 3925 50  0001 C CNN
+F 3 "~" V 6650 3925 50  0001 C CNN
+	1    6650 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_53
+U 1 1 5FF48702
+P 6850 3825
+F 0 "K_53" H 6850 4110 50  0000 C CNN
+F 1 "KC_L" H 6850 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6850 4025 50  0001 C CNN
+F 3 "~" H 6850 4025 50  0001 C CNN
+	1    6850 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D38
+U 1 1 5FF486FC
+P 6650 3350
+F 0 "D38" V 6650 3280 50  0000 R CNN
+F 1 "D_Small" V 6695 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6650 3350 50  0001 C CNN
+F 3 "~" V 6650 3350 50  0001 C CNN
+	1    6650 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_38
+U 1 1 5FF486F6
+P 6850 3250
+F 0 "K_38" H 6850 3535 50  0000 C CNN
+F 1 "KC_O" H 6850 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6850 3450 50  0001 C CNN
+F 3 "~" H 6850 3450 50  0001 C CNN
+	1    6850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 5FF486F0
+P 6650 2775
+F 0 "D23" V 6650 2705 50  0000 R CNN
+F 1 "D_Small" V 6695 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6650 2775 50  0001 C CNN
+F 3 "~" V 6650 2775 50  0001 C CNN
+	1    6650 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_23
+U 1 1 5FF486EA
+P 6850 2675
+F 0 "K_23" H 6850 2960 50  0000 C CNN
+F 1 "KC_9" H 6850 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6850 2875 50  0001 C CNN
+F 3 "~" H 6850 2875 50  0001 C CNN
+	1    6850 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 5FF486E4
+P 6650 2200
+F 0 "D10" V 6650 2130 50  0000 R CNN
+F 1 "D_Small" V 6695 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6650 2200 50  0001 C CNN
+F 3 "~" V 6650 2200 50  0001 C CNN
+	1    6650 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_10
+U 1 1 5FF486DE
+P 6850 2100
+F 0 "K_10" H 6850 2385 50  0000 C CNN
+F 1 "KC_F9" H 6850 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6850 2300 50  0001 C CNN
+F 3 "~" H 6850 2300 50  0001 C CNN
+	1    6850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4600 6050 4600
+Wire Wire Line
+	5450 4025 6050 4025
+Wire Wire Line
+	5450 3450 6050 3450
+Wire Wire Line
+	5450 2875 6050 2875
+Wire Wire Line
+	5450 2300 6050 2300
+Wire Wire Line
+	6450 4400 6450 3825
+Connection ~ 6450 4400
+Wire Wire Line
+	6450 3825 6450 3250
+Connection ~ 6450 3825
+Wire Wire Line
+	6450 3250 6450 2675
+Connection ~ 6450 3250
+Wire Wire Line
+	6450 2675 6450 2100
+Connection ~ 6450 2675
+Wire Wire Line
+	6450 2100 6450 1900
+Connection ~ 6450 2100
+$Comp
+L Device:D_Small D77
+U 1 1 5FF486C7
+P 6050 5075
+F 0 "D77" V 6050 5005 50  0000 R CNN
+F 1 "D_Small" V 6095 5145 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6050 5075 50  0001 C CNN
+F 3 "~" V 6050 5075 50  0001 C CNN
+	1    6050 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_77
+U 1 1 5FF486C1
+P 6250 4975
+F 0 "K_77" H 6250 5260 50  0000 C CNN
+F 1 "KC_RALT" H 6250 5169 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6250 5175 50  0001 C CNN
+F 3 "~" H 6250 5175 50  0001 C CNN
+	1    6250 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D67
+U 1 1 5FF486BB
+P 6050 4500
+F 0 "D67" V 6050 4430 50  0000 R CNN
+F 1 "D_Small" V 6095 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6050 4500 50  0001 C CNN
+F 3 "~" V 6050 4500 50  0001 C CNN
+	1    6050 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_67
+U 1 1 5FF486B5
+P 6250 4400
+F 0 "K_67" H 6250 4685 50  0000 C CNN
+F 1 "KC_COMM" H 6250 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6250 4600 50  0001 C CNN
+F 3 "~" H 6250 4600 50  0001 C CNN
+	1    6250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D52
+U 1 1 5FF486AF
+P 6050 3925
+F 0 "D52" V 6050 3855 50  0000 R CNN
+F 1 "D_Small" V 6095 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6050 3925 50  0001 C CNN
+F 3 "~" V 6050 3925 50  0001 C CNN
+	1    6050 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_52
+U 1 1 5FF486A9
+P 6250 3825
+F 0 "K_52" H 6250 4110 50  0000 C CNN
+F 1 "KC_K" H 6250 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6250 4025 50  0001 C CNN
+F 3 "~" H 6250 4025 50  0001 C CNN
+	1    6250 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D37
+U 1 1 5FF486A3
+P 6050 3350
+F 0 "D37" V 6050 3280 50  0000 R CNN
+F 1 "D_Small" V 6095 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6050 3350 50  0001 C CNN
+F 3 "~" V 6050 3350 50  0001 C CNN
+	1    6050 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_37
+U 1 1 5FF4869D
+P 6250 3250
+F 0 "K_37" H 6250 3535 50  0000 C CNN
+F 1 "KC_I" H 6250 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6250 3450 50  0001 C CNN
+F 3 "~" H 6250 3450 50  0001 C CNN
+	1    6250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 5FF48697
+P 6050 2775
+F 0 "D22" V 6050 2705 50  0000 R CNN
+F 1 "D_Small" V 6095 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6050 2775 50  0001 C CNN
+F 3 "~" V 6050 2775 50  0001 C CNN
+	1    6050 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_22
+U 1 1 5FF48691
+P 6250 2675
+F 0 "K_22" H 6250 2960 50  0000 C CNN
+F 1 "KC_8" H 6250 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6250 2875 50  0001 C CNN
+F 3 "~" H 6250 2875 50  0001 C CNN
+	1    6250 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 5FF4868B
+P 6050 2200
+F 0 "D9" V 6050 2130 50  0000 R CNN
+F 1 "D_Small" V 6095 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 6050 2200 50  0001 C CNN
+F 3 "~" V 6050 2200 50  0001 C CNN
+	1    6050 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_9
+U 1 1 5FF48685
+P 6250 2100
+F 0 "K_9" H 6250 2385 50  0000 C CNN
+F 1 "KC_F8" H 6250 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6250 2300 50  0001 C CNN
+F 3 "~" H 6250 2300 50  0001 C CNN
+	1    6250 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4600 5450 4600
+Wire Wire Line
+	4850 4025 5450 4025
+Wire Wire Line
+	4850 3450 5450 3450
+Wire Wire Line
+	4850 2875 5450 2875
+Wire Wire Line
+	4850 2300 5450 2300
+Wire Wire Line
+	5850 4400 5850 3825
+Wire Wire Line
+	5850 3825 5850 3250
+Connection ~ 5850 3825
+Wire Wire Line
+	5850 3250 5850 2675
+Connection ~ 5850 3250
+Wire Wire Line
+	5850 2675 5850 2100
+Connection ~ 5850 2675
+Wire Wire Line
+	5850 2100 5850 1900
+Connection ~ 5850 2100
+$Comp
+L Device:D_Small D66
+U 1 1 5FF48662
+P 5450 4500
+F 0 "D66" V 5450 4430 50  0000 R CNN
+F 1 "D_Small" V 5495 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 5450 4500 50  0001 C CNN
+F 3 "~" V 5450 4500 50  0001 C CNN
+	1    5450 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_66
+U 1 1 5FF4865C
+P 5650 4400
+F 0 "K_66" H 5650 4685 50  0000 C CNN
+F 1 "KC_M" H 5650 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5650 4600 50  0001 C CNN
+F 3 "~" H 5650 4600 50  0001 C CNN
+	1    5650 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D51
+U 1 1 5FF48656
+P 5450 3925
+F 0 "D51" V 5450 3855 50  0000 R CNN
+F 1 "D_Small" V 5495 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 5450 3925 50  0001 C CNN
+F 3 "~" V 5450 3925 50  0001 C CNN
+	1    5450 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_51
+U 1 1 5FF48650
+P 5650 3825
+F 0 "K_51" H 5650 4110 50  0000 C CNN
+F 1 "KC_J" H 5650 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5650 4025 50  0001 C CNN
+F 3 "~" H 5650 4025 50  0001 C CNN
+	1    5650 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 5FF4864A
+P 5450 3350
+F 0 "D36" V 5450 3280 50  0000 R CNN
+F 1 "D_Small" V 5495 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 5450 3350 50  0001 C CNN
+F 3 "~" V 5450 3350 50  0001 C CNN
+	1    5450 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_36
+U 1 1 5FF48644
+P 5650 3250
+F 0 "K_36" H 5650 3535 50  0000 C CNN
+F 1 "KC_U" H 5650 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5650 3450 50  0001 C CNN
+F 3 "~" H 5650 3450 50  0001 C CNN
+	1    5650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 5FF4863E
+P 5450 2775
+F 0 "D21" V 5450 2705 50  0000 R CNN
+F 1 "D_Small" V 5495 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 5450 2775 50  0001 C CNN
+F 3 "~" V 5450 2775 50  0001 C CNN
+	1    5450 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_21
+U 1 1 5FF48638
+P 5650 2675
+F 0 "K_21" H 5650 2960 50  0000 C CNN
+F 1 "KC_7" H 5650 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5650 2875 50  0001 C CNN
+F 3 "~" H 5650 2875 50  0001 C CNN
+	1    5650 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5FF48632
+P 5450 2200
+F 0 "D8" V 5450 2130 50  0000 R CNN
+F 1 "D_Small" V 5495 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 5450 2200 50  0001 C CNN
+F 3 "~" V 5450 2200 50  0001 C CNN
+	1    5450 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_8
+U 1 1 5FF4862C
+P 5650 2100
+F 0 "K_8" H 5650 2385 50  0000 C CNN
+F 1 "KC_F7" H 5650 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5650 2300 50  0001 C CNN
+F 3 "~" H 5650 2300 50  0001 C CNN
+	1    5650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4600 4850 4600
+Wire Wire Line
+	4250 4025 4850 4025
+Wire Wire Line
+	4250 3450 4850 3450
+Wire Wire Line
+	4250 2875 4850 2875
+Wire Wire Line
+	4250 2300 4850 2300
+Wire Wire Line
+	5250 4400 5250 3825
+Connection ~ 5250 4400
+Wire Wire Line
+	5250 3825 5250 3250
+Connection ~ 5250 3825
+Wire Wire Line
+	5250 3250 5250 2675
+Connection ~ 5250 3250
+Wire Wire Line
+	5250 2675 5250 2100
+Connection ~ 5250 2675
+Wire Wire Line
+	5250 2100 5250 1900
+Connection ~ 5250 2100
+Wire Wire Line
+	5250 4975 5250 4400
+$Comp
+L Device:D_Small D76
+U 1 1 5FF2F869
+P 4850 5075
+F 0 "D76" V 4850 5005 50  0000 R CNN
+F 1 "D_Small" V 4895 5145 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 4850 5075 50  0001 C CNN
+F 3 "~" V 4850 5075 50  0001 C CNN
+	1    4850 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_76
+U 1 1 5FF2F863
+P 5050 4975
+F 0 "K_76" H 5050 5260 50  0000 C CNN
+F 1 "KC_SPC" H 5050 5169 50  0000 C CNN
+F 2 "MX_Only:MXOnly-6.25U-ReversedStabilizers-NoLED" H 5050 5175 50  0001 C CNN
+F 3 "~" H 5050 5175 50  0001 C CNN
+	1    5050 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D65
+U 1 1 5FF2F85D
+P 4850 4500
+F 0 "D65" V 4850 4430 50  0000 R CNN
+F 1 "D_Small" V 4895 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 4850 4500 50  0001 C CNN
+F 3 "~" V 4850 4500 50  0001 C CNN
+	1    4850 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_65
+U 1 1 5FF2F857
+P 5050 4400
+F 0 "K_65" H 5050 4685 50  0000 C CNN
+F 1 "KC_N" H 5050 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5050 4600 50  0001 C CNN
+F 3 "~" H 5050 4600 50  0001 C CNN
+	1    5050 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D50
+U 1 1 5FF2F851
+P 4850 3925
+F 0 "D50" V 4850 3855 50  0000 R CNN
+F 1 "D_Small" V 4895 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 4850 3925 50  0001 C CNN
+F 3 "~" V 4850 3925 50  0001 C CNN
+	1    4850 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_50
+U 1 1 5FF2F84B
+P 5050 3825
+F 0 "K_50" H 5050 4110 50  0000 C CNN
+F 1 "KC_H" H 5050 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5050 4025 50  0001 C CNN
+F 3 "~" H 5050 4025 50  0001 C CNN
+	1    5050 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 5FF2F845
+P 4850 3350
+F 0 "D35" V 4850 3280 50  0000 R CNN
+F 1 "D_Small" V 4895 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 4850 3350 50  0001 C CNN
+F 3 "~" V 4850 3350 50  0001 C CNN
+	1    4850 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_35
+U 1 1 5FF2F83F
+P 5050 3250
+F 0 "K_35" H 5050 3535 50  0000 C CNN
+F 1 "KC_Y" H 5050 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5050 3450 50  0001 C CNN
+F 3 "~" H 5050 3450 50  0001 C CNN
+	1    5050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 5FF2F839
+P 4850 2775
+F 0 "D20" V 4850 2705 50  0000 R CNN
+F 1 "D_Small" V 4895 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 4850 2775 50  0001 C CNN
+F 3 "~" V 4850 2775 50  0001 C CNN
+	1    4850 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_20
+U 1 1 5FF2F833
+P 5050 2675
+F 0 "K_20" H 5050 2960 50  0000 C CNN
+F 1 "KC_6" H 5050 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5050 2875 50  0001 C CNN
+F 3 "~" H 5050 2875 50  0001 C CNN
+	1    5050 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5FF2F82D
+P 4850 2200
+F 0 "D7" V 4850 2130 50  0000 R CNN
+F 1 "D_Small" V 4895 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 4850 2200 50  0001 C CNN
+F 3 "~" V 4850 2200 50  0001 C CNN
+	1    4850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_7
+U 1 1 5FF2F827
+P 5050 2100
+F 0 "K_7" H 5050 2385 50  0000 C CNN
+F 1 "KC_F6" H 5050 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 5050 2300 50  0001 C CNN
+F 3 "~" H 5050 2300 50  0001 C CNN
+	1    5050 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4600 4250 4600
+Wire Wire Line
+	3650 4025 4250 4025
+Wire Wire Line
+	3650 3450 4250 3450
+Wire Wire Line
+	3650 2875 4250 2875
+Wire Wire Line
+	3650 2300 4250 2300
+Wire Wire Line
+	4650 4400 4650 3825
+Wire Wire Line
+	4650 3825 4650 3250
+Connection ~ 4650 3825
+Wire Wire Line
+	4650 3250 4650 2675
+Connection ~ 4650 3250
+Wire Wire Line
+	4650 2675 4650 2100
+Connection ~ 4650 2675
+Wire Wire Line
+	4650 2100 4650 1900
+Connection ~ 4650 2100
+$Comp
+L Device:D_Small D64
+U 1 1 5FF2F804
+P 4250 4500
+F 0 "D64" V 4250 4430 50  0000 R CNN
+F 1 "D_Small" V 4295 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 4250 4500 50  0001 C CNN
+F 3 "~" V 4250 4500 50  0001 C CNN
+	1    4250 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_64
+U 1 1 5FF2F7FE
+P 4450 4400
+F 0 "K_64" H 4450 4685 50  0000 C CNN
+F 1 "KC_B" H 4450 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4450 4600 50  0001 C CNN
+F 3 "~" H 4450 4600 50  0001 C CNN
+	1    4450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D49
+U 1 1 5FF2F7F8
+P 4250 3925
+F 0 "D49" V 4250 3855 50  0000 R CNN
+F 1 "D_Small" V 4295 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 4250 3925 50  0001 C CNN
+F 3 "~" V 4250 3925 50  0001 C CNN
+	1    4250 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_49
+U 1 1 5FF2F7F2
+P 4450 3825
+F 0 "K_49" H 4450 4110 50  0000 C CNN
+F 1 "KC_G" H 4450 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4450 4025 50  0001 C CNN
+F 3 "~" H 4450 4025 50  0001 C CNN
+	1    4450 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 5FF2F7EC
+P 4250 3350
+F 0 "D34" V 4250 3280 50  0000 R CNN
+F 1 "D_Small" V 4295 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 4250 3350 50  0001 C CNN
+F 3 "~" V 4250 3350 50  0001 C CNN
+	1    4250 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_34
+U 1 1 5FF2F7E6
+P 4450 3250
+F 0 "K_34" H 4450 3535 50  0000 C CNN
+F 1 "KC_T" H 4450 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4450 3450 50  0001 C CNN
+F 3 "~" H 4450 3450 50  0001 C CNN
+	1    4450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 5FF2F7E0
+P 4250 2775
+F 0 "D19" V 4250 2705 50  0000 R CNN
+F 1 "D_Small" V 4295 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 4250 2775 50  0001 C CNN
+F 3 "~" V 4250 2775 50  0001 C CNN
+	1    4250 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_19
+U 1 1 5FF2F7DA
+P 4450 2675
+F 0 "K_19" H 4450 2960 50  0000 C CNN
+F 1 "KC_5" H 4450 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4450 2875 50  0001 C CNN
+F 3 "~" H 4450 2875 50  0001 C CNN
+	1    4450 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5FF2F7D4
+P 4250 2200
+F 0 "D6" V 4250 2130 50  0000 R CNN
+F 1 "D_Small" V 4295 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 4250 2200 50  0001 C CNN
+F 3 "~" V 4250 2200 50  0001 C CNN
+	1    4250 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_6
+U 1 1 5FF2F7CE
+P 4450 2100
+F 0 "K_6" H 4450 2385 50  0000 C CNN
+F 1 "KC_F5" H 4450 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4450 2300 50  0001 C CNN
+F 3 "~" H 4450 2300 50  0001 C CNN
+	1    4450 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4600 3650 4600
+Wire Wire Line
+	3050 4025 3650 4025
+Wire Wire Line
+	3050 3450 3650 3450
+Wire Wire Line
+	3050 2875 3650 2875
+Wire Wire Line
+	3050 2300 3650 2300
+Wire Wire Line
+	4050 4400 4050 3825
+Wire Wire Line
+	4050 3825 4050 3250
+Connection ~ 4050 3825
+Wire Wire Line
+	4050 3250 4050 2675
+Connection ~ 4050 3250
+Wire Wire Line
+	4050 2675 4050 2100
+Connection ~ 4050 2675
+Wire Wire Line
+	4050 2100 4050 1900
+Connection ~ 4050 2100
+$Comp
+L Device:D_Small D63
+U 1 1 5FF2F7AB
+P 3650 4500
+F 0 "D63" V 3650 4430 50  0000 R CNN
+F 1 "D_Small" V 3695 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 3650 4500 50  0001 C CNN
+F 3 "~" V 3650 4500 50  0001 C CNN
+	1    3650 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_63
+U 1 1 5FF2F7A5
+P 3850 4400
+F 0 "K_63" H 3850 4685 50  0000 C CNN
+F 1 "KC_V" H 3850 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3850 4600 50  0001 C CNN
+F 3 "~" H 3850 4600 50  0001 C CNN
+	1    3850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D48
+U 1 1 5FF2F79F
+P 3650 3925
+F 0 "D48" V 3650 3855 50  0000 R CNN
+F 1 "D_Small" V 3695 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 3650 3925 50  0001 C CNN
+F 3 "~" V 3650 3925 50  0001 C CNN
+	1    3650 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_48
+U 1 1 5FF2F799
+P 3850 3825
+F 0 "K_48" H 3850 4110 50  0000 C CNN
+F 1 "KC_F" H 3850 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3850 4025 50  0001 C CNN
+F 3 "~" H 3850 4025 50  0001 C CNN
+	1    3850 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 5FF2F793
+P 3650 3350
+F 0 "D33" V 3650 3280 50  0000 R CNN
+F 1 "D_Small" V 3695 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 3650 3350 50  0001 C CNN
+F 3 "~" V 3650 3350 50  0001 C CNN
+	1    3650 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_33
+U 1 1 5FF2F78D
+P 3850 3250
+F 0 "K_33" H 3850 3535 50  0000 C CNN
+F 1 "KC_R" H 3850 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3850 3450 50  0001 C CNN
+F 3 "~" H 3850 3450 50  0001 C CNN
+	1    3850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 5FF2F787
+P 3650 2775
+F 0 "D18" V 3650 2705 50  0000 R CNN
+F 1 "D_Small" V 3695 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 3650 2775 50  0001 C CNN
+F 3 "~" V 3650 2775 50  0001 C CNN
+	1    3650 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_18
+U 1 1 5FF2F781
+P 3850 2675
+F 0 "K_18" H 3850 2960 50  0000 C CNN
+F 1 "KC_4" H 3850 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3850 2875 50  0001 C CNN
+F 3 "~" H 3850 2875 50  0001 C CNN
+	1    3850 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5FF2F77B
+P 3650 2200
+F 0 "D5" V 3650 2130 50  0000 R CNN
+F 1 "D_Small" V 3695 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 3650 2200 50  0001 C CNN
+F 3 "~" V 3650 2200 50  0001 C CNN
+	1    3650 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_5
+U 1 1 5FF2F775
+P 3850 2100
+F 0 "K_5" H 3850 2385 50  0000 C CNN
+F 1 "KC_F4" H 3850 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3850 2300 50  0001 C CNN
+F 3 "~" H 3850 2300 50  0001 C CNN
+	1    3850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4600 3050 4600
+Wire Wire Line
+	2450 4025 3050 4025
+Wire Wire Line
+	2450 3450 3050 3450
+Wire Wire Line
+	2450 2875 3050 2875
+Wire Wire Line
+	2450 2300 3050 2300
+Wire Wire Line
+	3450 4400 3450 3825
+Wire Wire Line
+	3450 3825 3450 3250
+Connection ~ 3450 3825
+Wire Wire Line
+	3450 3250 3450 2675
+Connection ~ 3450 3250
+Wire Wire Line
+	3450 2675 3450 2100
+Connection ~ 3450 2675
+Wire Wire Line
+	3450 2100 3450 1900
+Connection ~ 3450 2100
+$Comp
+L Device:D_Small D62
+U 1 1 5FF17EE4
+P 3050 4500
+F 0 "D62" V 3050 4430 50  0000 R CNN
+F 1 "D_Small" V 3095 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 3050 4500 50  0001 C CNN
+F 3 "~" V 3050 4500 50  0001 C CNN
+	1    3050 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_62
+U 1 1 5FF17EDE
+P 3250 4400
+F 0 "K_62" H 3250 4685 50  0000 C CNN
+F 1 "KC_C" H 3250 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3250 4600 50  0001 C CNN
+F 3 "~" H 3250 4600 50  0001 C CNN
+	1    3250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D47
+U 1 1 5FF17ED8
+P 3050 3925
+F 0 "D47" V 3050 3855 50  0000 R CNN
+F 1 "D_Small" V 3095 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 3050 3925 50  0001 C CNN
+F 3 "~" V 3050 3925 50  0001 C CNN
+	1    3050 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_47
+U 1 1 5FF17ED2
+P 3250 3825
+F 0 "K_47" H 3250 4110 50  0000 C CNN
+F 1 "KC_D" H 3250 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3250 4025 50  0001 C CNN
+F 3 "~" H 3250 4025 50  0001 C CNN
+	1    3250 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 5FF17ECC
+P 3050 3350
+F 0 "D32" V 3050 3280 50  0000 R CNN
+F 1 "D_Small" V 3095 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 3050 3350 50  0001 C CNN
+F 3 "~" V 3050 3350 50  0001 C CNN
+	1    3050 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_32
+U 1 1 5FF17EC6
+P 3250 3250
+F 0 "K_32" H 3250 3535 50  0000 C CNN
+F 1 "KC_E" H 3250 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3250 3450 50  0001 C CNN
+F 3 "~" H 3250 3450 50  0001 C CNN
+	1    3250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 5FF17EC0
+P 3050 2775
+F 0 "D17" V 3050 2705 50  0000 R CNN
+F 1 "D_Small" V 3095 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 3050 2775 50  0001 C CNN
+F 3 "~" V 3050 2775 50  0001 C CNN
+	1    3050 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_17
+U 1 1 5FF17EBA
+P 3250 2675
+F 0 "K_17" H 3250 2960 50  0000 C CNN
+F 1 "KC_3" H 3250 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3250 2875 50  0001 C CNN
+F 3 "~" H 3250 2875 50  0001 C CNN
+	1    3250 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5FF17EB4
+P 3050 2200
+F 0 "D4" V 3050 2130 50  0000 R CNN
+F 1 "D_Small" V 3095 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 3050 2200 50  0001 C CNN
+F 3 "~" V 3050 2200 50  0001 C CNN
+	1    3050 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_4
+U 1 1 5FF17EAE
+P 3250 2100
+F 0 "K_4" H 3250 2385 50  0000 C CNN
+F 1 "KC_F3" H 3250 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3250 2300 50  0001 C CNN
+F 3 "~" H 3250 2300 50  0001 C CNN
+	1    3250 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5175 2450 5175
+Wire Wire Line
+	1850 4600 2450 4600
+Wire Wire Line
+	1850 4025 2450 4025
+Wire Wire Line
+	1850 3450 2450 3450
+Wire Wire Line
+	1850 2875 2450 2875
+Wire Wire Line
+	1850 2300 2450 2300
+Wire Wire Line
+	2850 4400 2850 3825
+Connection ~ 2850 4400
+Wire Wire Line
+	2850 3825 2850 3250
+Connection ~ 2850 3825
+Wire Wire Line
+	2850 3250 2850 2675
+Connection ~ 2850 3250
+Wire Wire Line
+	2850 2675 2850 2100
+Connection ~ 2850 2675
+Wire Wire Line
+	2850 2100 2850 1900
+Connection ~ 2850 2100
+Wire Wire Line
+	2850 4975 2850 4400
+$Comp
+L Device:D_Small D75
+U 1 1 5FF11209
+P 2450 5075
+F 0 "D75" V 2450 5005 50  0000 R CNN
+F 1 "D_Small" V 2495 5145 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 2450 5075 50  0001 C CNN
+F 3 "~" V 2450 5075 50  0001 C CNN
+	1    2450 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_75
+U 1 1 5FF11203
+P 2650 4975
+F 0 "K_75" H 2650 5260 50  0000 C CNN
+F 1 "KC_LALT" H 2650 5169 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U-NoLED" H 2650 5175 50  0001 C CNN
+F 3 "~" H 2650 5175 50  0001 C CNN
+	1    2650 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D61
+U 1 1 5FF111FD
+P 2450 4500
+F 0 "D61" V 2450 4430 50  0000 R CNN
+F 1 "D_Small" V 2495 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 2450 4500 50  0001 C CNN
+F 3 "~" V 2450 4500 50  0001 C CNN
+	1    2450 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_61
+U 1 1 5FF111F7
+P 2650 4400
+F 0 "K_61" H 2650 4685 50  0000 C CNN
+F 1 "KC_X" H 2650 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2650 4600 50  0001 C CNN
+F 3 "~" H 2650 4600 50  0001 C CNN
+	1    2650 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D46
+U 1 1 5FF111F1
+P 2450 3925
+F 0 "D46" V 2450 3855 50  0000 R CNN
+F 1 "D_Small" V 2495 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 2450 3925 50  0001 C CNN
+F 3 "~" V 2450 3925 50  0001 C CNN
+	1    2450 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_46
+U 1 1 5FF111EB
+P 2650 3825
+F 0 "K_46" H 2650 4110 50  0000 C CNN
+F 1 "KC_S" H 2650 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2650 4025 50  0001 C CNN
+F 3 "~" H 2650 4025 50  0001 C CNN
+	1    2650 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 5FF111E5
+P 2450 3350
+F 0 "D31" V 2450 3280 50  0000 R CNN
+F 1 "D_Small" V 2495 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 2450 3350 50  0001 C CNN
+F 3 "~" V 2450 3350 50  0001 C CNN
+	1    2450 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_31
+U 1 1 5FF111DF
+P 2650 3250
+F 0 "K_31" H 2650 3535 50  0000 C CNN
+F 1 "KC_W" H 2650 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2650 3450 50  0001 C CNN
+F 3 "~" H 2650 3450 50  0001 C CNN
+	1    2650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 5FF111D9
+P 2450 2775
+F 0 "D16" V 2450 2705 50  0000 R CNN
+F 1 "D_Small" V 2495 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 2450 2775 50  0001 C CNN
+F 3 "~" V 2450 2775 50  0001 C CNN
+	1    2450 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_16
+U 1 1 5FF111D3
+P 2650 2675
+F 0 "K_16" H 2650 2960 50  0000 C CNN
+F 1 "KC_2" H 2650 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2650 2875 50  0001 C CNN
+F 3 "~" H 2650 2875 50  0001 C CNN
+	1    2650 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5FF111CD
+P 2450 2200
+F 0 "D3" V 2450 2130 50  0000 R CNN
+F 1 "D_Small" V 2495 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 2450 2200 50  0001 C CNN
+F 3 "~" V 2450 2200 50  0001 C CNN
+	1    2450 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_3
+U 1 1 5FF111C7
+P 2650 2100
+F 0 "K_3" H 2650 2385 50  0000 C CNN
+F 1 "KC_F2" H 2650 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2650 2300 50  0001 C CNN
+F 3 "~" H 2650 2300 50  0001 C CNN
+	1    2650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5175 1850 5175
+Wire Wire Line
+	1250 4600 1850 4600
+Wire Wire Line
+	1250 4025 1850 4025
+Wire Wire Line
+	1250 3450 1850 3450
+Wire Wire Line
+	1250 2875 1850 2875
+Wire Wire Line
+	1250 2300 1850 2300
+Wire Wire Line
+	2250 4400 2250 3825
+Connection ~ 2250 4400
+Wire Wire Line
+	2250 3825 2250 3250
+Connection ~ 2250 3825
+Wire Wire Line
+	2250 3250 2250 2675
+Connection ~ 2250 3250
+Wire Wire Line
+	2250 2675 2250 2100
+Connection ~ 2250 2675
+Wire Wire Line
+	2250 2100 2250 1900
+Connection ~ 2250 2100
+Wire Wire Line
+	2250 4975 2250 4400
+$Comp
+L Device:D_Small D74
+U 1 1 5FEF051F
+P 1850 5075
+F 0 "D74" V 1850 5005 50  0000 R CNN
+F 1 "D_Small" V 1895 5145 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1850 5075 50  0001 C CNN
+F 3 "~" V 1850 5075 50  0001 C CNN
+	1    1850 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_74
+U 1 1 5FEF0519
+P 2050 4975
+F 0 "K_74" H 2050 5260 50  0000 C CNN
+F 1 "KC_LGUI" H 2050 5169 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U-NoLED" H 2050 5175 50  0001 C CNN
+F 3 "~" H 2050 5175 50  0001 C CNN
+	1    2050 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D60
+U 1 1 5FEF0513
+P 1850 4500
+F 0 "D60" V 1850 4430 50  0000 R CNN
+F 1 "D_Small" V 1895 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1850 4500 50  0001 C CNN
+F 3 "~" V 1850 4500 50  0001 C CNN
+	1    1850 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_60
+U 1 1 5FEF050D
+P 2050 4400
+F 0 "K_60" H 2050 4685 50  0000 C CNN
+F 1 "KC_Z" H 2050 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2050 4600 50  0001 C CNN
+F 3 "~" H 2050 4600 50  0001 C CNN
+	1    2050 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D45
+U 1 1 5FEF0507
+P 1850 3925
+F 0 "D45" V 1850 3855 50  0000 R CNN
+F 1 "D_Small" V 1895 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1850 3925 50  0001 C CNN
+F 3 "~" V 1850 3925 50  0001 C CNN
+	1    1850 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_45
+U 1 1 5FEF0501
+P 2050 3825
+F 0 "K_45" H 2050 4110 50  0000 C CNN
+F 1 "KC_A" H 2050 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2050 4025 50  0001 C CNN
+F 3 "~" H 2050 4025 50  0001 C CNN
+	1    2050 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 5FEF04FB
+P 1850 3350
+F 0 "D30" V 1850 3280 50  0000 R CNN
+F 1 "D_Small" V 1895 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1850 3350 50  0001 C CNN
+F 3 "~" V 1850 3350 50  0001 C CNN
+	1    1850 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_30
+U 1 1 5FEF04F5
+P 2050 3250
+F 0 "K_30" H 2050 3535 50  0000 C CNN
+F 1 "KC_Q" H 2050 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2050 3450 50  0001 C CNN
+F 3 "~" H 2050 3450 50  0001 C CNN
+	1    2050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 5FEF04EF
+P 1850 2775
+F 0 "D15" V 1850 2705 50  0000 R CNN
+F 1 "D_Small" V 1895 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1850 2775 50  0001 C CNN
+F 3 "~" V 1850 2775 50  0001 C CNN
+	1    1850 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_15
+U 1 1 5FEF04E9
+P 2050 2675
+F 0 "K_15" H 2050 2960 50  0000 C CNN
+F 1 "KC_1" H 2050 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2050 2875 50  0001 C CNN
+F 3 "~" H 2050 2875 50  0001 C CNN
+	1    2050 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5FEF04E3
+P 1850 2200
+F 0 "D2" V 1850 2130 50  0000 R CNN
+F 1 "D_Small" V 1895 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1850 2200 50  0001 C CNN
+F 3 "~" V 1850 2200 50  0001 C CNN
+	1    1850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_2
+U 1 1 5FEF04DD
+P 2050 2100
+F 0 "K_2" H 2050 2385 50  0000 C CNN
+F 1 "KC_F1" H 2050 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2050 2300 50  0001 C CNN
+F 3 "~" H 2050 2300 50  0001 C CNN
+	1    2050 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4400 1650 3825
+Connection ~ 1650 4400
+Wire Wire Line
+	1650 3825 1650 3800
+Connection ~ 1650 3825
+Wire Wire Line
+	1650 3250 1650 2675
+Connection ~ 1650 3250
+Wire Wire Line
+	1650 2675 1650 2100
+Connection ~ 1650 2675
+Wire Wire Line
+	1650 2100 1650 1900
+Connection ~ 1650 2100
+Wire Wire Line
+	1650 4975 1650 4400
+$Comp
+L Device:D_Small D73
+U 1 1 5FEEDEF3
+P 1250 5075
+F 0 "D73" V 1250 5005 50  0000 R CNN
+F 1 "D_Small" V 1295 5145 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1250 5075 50  0001 C CNN
+F 3 "~" V 1250 5075 50  0001 C CNN
+	1    1250 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_73
+U 1 1 5FEEDEED
+P 1450 4975
+F 0 "K_73" H 1450 5260 50  0000 C CNN
+F 1 "KC_LCTL" H 1450 5169 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U-NoLED" H 1450 5175 50  0001 C CNN
+F 3 "~" H 1450 5175 50  0001 C CNN
+	1    1450 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D59
+U 1 1 5FEEDEE7
+P 1250 4500
+F 0 "D59" V 1250 4430 50  0000 R CNN
+F 1 "D_Small" V 1295 4570 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1250 4500 50  0001 C CNN
+F 3 "~" V 1250 4500 50  0001 C CNN
+	1    1250 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_59
+U 1 1 5FEEDEE1
+P 1450 4400
+F 0 "K_59" H 1450 4685 50  0000 C CNN
+F 1 "KC_LSFT" H 1450 4594 50  0000 C CNN
+F 2 "MX_Only:MXOnly-2.25U-NoLED" H 1450 4600 50  0001 C CNN
+F 3 "~" H 1450 4600 50  0001 C CNN
+	1    1450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D44
+U 1 1 5FEEA1C1
+P 1250 3925
+F 0 "D44" V 1250 3855 50  0000 R CNN
+F 1 "D_Small" V 1295 3995 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1250 3925 50  0001 C CNN
+F 3 "~" V 1250 3925 50  0001 C CNN
+	1    1250 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_44
+U 1 1 5FEEA1BB
+P 1450 3825
+F 0 "K_44" H 1450 4110 50  0000 C CNN
+F 1 "KC_CAPS" H 1450 4019 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1.75U-NoLED" H 1450 4025 50  0001 C CNN
+F 3 "~" H 1450 4025 50  0001 C CNN
+	1    1450 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D29
+U 1 1 5FEEA1B5
+P 1250 3350
+F 0 "D29" V 1250 3280 50  0000 R CNN
+F 1 "D_Small" V 1295 3420 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1250 3350 50  0001 C CNN
+F 3 "~" V 1250 3350 50  0001 C CNN
+	1    1250 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_29
+U 1 1 5FEEA1AF
+P 1450 3250
+F 0 "K_29" H 1450 3535 50  0000 C CNN
+F 1 "KC_TAB" H 1450 3444 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 1450 3450 50  0001 C CNN
+F 3 "~" H 1450 3450 50  0001 C CNN
+	1    1450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 5FEE4945
+P 1250 2775
+F 0 "D14" V 1250 2705 50  0000 R CNN
+F 1 "D_Small" V 1295 2845 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1250 2775 50  0001 C CNN
+F 3 "~" V 1250 2775 50  0001 C CNN
+	1    1250 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_14
+U 1 1 5FEE493F
+P 1450 2675
+F 0 "K_14" H 1450 2960 50  0000 C CNN
+F 1 "KC_GRV" H 1450 2869 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 1450 2875 50  0001 C CNN
+F 3 "~" H 1450 2875 50  0001 C CNN
+	1    1450 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5FEDF2C4
+P 1250 2200
+F 0 "D1" V 1250 2130 50  0000 R CNN
+F 1 "D_Small" V 1295 2270 50  0001 L CNN
+F 2 "Custom_Footprints:D_SOD-123_Annotated" V 1250 2200 50  0001 C CNN
+F 3 "~" V 1250 2200 50  0001 C CNN
+	1    1250 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K_1
+U 1 1 5FEDE563
+P 1450 2100
+F 0 "K_1" H 1450 2385 50  0000 C CNN
+F 1 "KC_ESC" H 1450 2294 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 1450 2300 50  0001 C CNN
+F 3 "~" H 1450 2300 50  0001 C CNN
+	1    1450 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 1900 1    50   Input ~ 0
+col0
+Text GLabel 2250 1900 1    50   Input ~ 0
+col1
+Text GLabel 2850 1900 1    50   Input ~ 0
+col2
+Text GLabel 3450 1900 1    50   Input ~ 0
+col3
+Text GLabel 4050 1900 1    50   Input ~ 0
+col4
+Text GLabel 4650 1900 1    50   Input ~ 0
+col5
+Text GLabel 5250 1900 1    50   Input ~ 0
+col6
+Text GLabel 5850 1900 1    50   Input ~ 0
+col7
+Text GLabel 6450 1900 1    50   Input ~ 0
+col8
+Text GLabel 7050 1900 1    50   Input ~ 0
+col9
+Text GLabel 7650 1900 1    50   Input ~ 0
+col10
+Text GLabel 8250 1900 1    50   Input ~ 0
+col11
+Text GLabel 8850 1900 1    50   Input ~ 0
+col12
+Text GLabel 9450 1900 1    50   Input ~ 0
+col13
+Text GLabel 10050 1900 1    50   Input ~ 0
+col14
+Text GLabel 1250 2300 0    50   Input ~ 0
+row0
+Text GLabel 1250 2875 0    50   Input ~ 0
+row1
+Text GLabel 1250 3450 0    50   Input ~ 0
+row2
+Text GLabel 1250 4025 0    50   Input ~ 0
+row3
+Text GLabel 1250 4600 0    50   Input ~ 0
+row4
+Text GLabel 1250 5175 0    50   Input ~ 0
+row5
+Connection ~ 12000 5200
+Wire Wire Line
+	12000 5200 12050 5200
+Wire Wire Line
+	12000 5200 11950 5200
+$Comp
+L power:GND #PWR017
+U 1 1 5FECAADA
+P 12000 5200
+F 0 "#PWR017" H 12000 4950 50  0001 C CNN
+F 1 "GND" H 12005 5027 50  0000 C CNN
+F 2 "" H 12000 5200 50  0001 C CNN
+F 3 "" H 12000 5200 50  0001 C CNN
+	1    12000 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 5200 12050 5100
+Wire Wire Line
+	11950 5200 11950 5100
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB1
+U 1 1 5FD590CA
+P 14575 4675
+F 0 "USB1" H 14408 5472 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 14408 5366 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12" H 14575 4675 60  0001 C CNN
+F 3 "" H 14575 4675 60  0001 C CNN
+	1    14575 4675
+	1    0    0    -1  
+$EndComp
+Text GLabel 14875 4525 2    50   Input ~ 0
+DB-
+Text GLabel 14875 4625 2    50   Input ~ 0
+DB+
+Text GLabel 14875 4725 2    50   Input ~ 0
+DB-
+Text GLabel 14875 4825 2    50   Input ~ 0
+DB+
+Wire Wire Line
+	14675 4625 14875 4625
+Wire Wire Line
+	14675 4725 14875 4725
+Wire Wire Line
+	14675 4825 14875 4825
+Wire Wire Line
+	14675 4525 14875 4525
+$Comp
+L Device:R_Small R5
+U 1 1 5FD7141F
+P 15000 4425
+F 0 "R5" V 14925 4425 25  0000 C CNN
+F 1 "5.1kΩ" V 15000 4425 25  0000 C CNN
+F 2 "Custom_Footprints:R_0603_Annotated" H 15000 4425 50  0001 C CNN
+F 3 "~" H 15000 4425 50  0001 C CNN
+	1    15000 4425
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5FD72FFC
+P 14975 5025
+F 0 "R6" V 14900 5025 25  0000 C CNN
+F 1 "5.1kΩ" V 14975 5025 25  0000 C CNN
+F 2 "Custom_Footprints:R_0603_Annotated" H 14975 5025 50  0001 C CNN
+F 3 "~" H 14975 5025 50  0001 C CNN
+	1    14975 5025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5FD7E017
+P 15825 4275
+F 0 "R4" V 15900 4275 25  0000 C CNN
+F 1 "22Ω" V 15825 4275 25  0000 C CNN
+F 2 "Custom_Footprints:R_0603_Annotated" H 15825 4275 50  0001 C CNN
+F 3 "~" H 15825 4275 50  0001 C CNN
+	1    15825 4275
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5FD81472
+P 15825 4175
+F 0 "R3" V 15750 4175 25  0000 C CNN
+F 1 "22Ω" V 15825 4175 25  0000 C CNN
+F 2 "Custom_Footprints:R_0603_Annotated" H 15825 4175 50  0001 C CNN
+F 3 "~" H 15825 4175 50  0001 C CNN
+	1    15825 4175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14675 4425 14900 4425
+Wire Wire Line
+	14675 5025 14875 5025
+NoConn ~ 14675 4925
+NoConn ~ 14675 4325
+$Comp
+L power:GND #PWR018
+U 1 1 5FD98C9C
+P 15225 5325
+F 0 "#PWR018" H 15225 5075 50  0001 C CNN
+F 1 "GND" H 15230 5152 50  0000 C CNN
+F 2 "" H 15225 5325 50  0001 C CNN
+F 3 "" H 15225 5325 50  0001 C CNN
+	1    15225 5325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14675 5225 15225 5225
+Wire Wire Line
+	15075 5025 15225 5025
+Wire Wire Line
+	15225 5025 15225 5225
+Wire Wire Line
+	15100 4425 15225 4425
+Wire Wire Line
+	15225 4425 15225 5025
+Connection ~ 15225 5025
+Wire Wire Line
+	14675 5325 15225 5325
+Wire Wire Line
+	15225 5325 15225 5225
+Connection ~ 15225 5325
+Connection ~ 15225 5225
+Wire Wire Line
+	14675 4125 15225 4125
+Wire Wire Line
+	15225 4125 15225 4425
+Connection ~ 15225 4425
+$Comp
+L power:VCC #PWR013
+U 1 1 5FDBBD76
+P 14800 4225
+F 0 "#PWR013" H 14800 4075 50  0001 C CNN
+F 1 "VCC" V 14815 4353 50  0000 L CNN
+F 2 "" H 14800 4225 50  0001 C CNN
+F 3 "" H 14800 4225 50  0001 C CNN
+	1    14800 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR016
+U 1 1 5FDBDC87
+P 14800 5125
+F 0 "#PWR016" H 14800 4975 50  0001 C CNN
+F 1 "VCC" V 14815 5253 50  0000 L CNN
+F 2 "" H 14800 5125 50  0001 C CNN
+F 3 "" H 14800 5125 50  0001 C CNN
+	1    14800 5125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14800 5125 14675 5125
+Wire Wire Line
+	14800 4225 14675 4225
+Text GLabel 15725 4275 0    50   Input ~ 0
+DB-
+Text GLabel 15725 4175 0    50   Input ~ 0
+DB+
+Text GLabel 15925 4175 2    50   Input ~ 0
+DA+
+Text GLabel 15925 4275 2    50   Input ~ 0
+DA-
+$Comp
+L power:VCC #PWR014
+U 1 1 5FDD79BC
+P 15550 4750
+F 0 "#PWR014" H 15550 4600 50  0001 C CNN
+F 1 "VCC" H 15565 4923 50  0000 C CNN
+F 2 "" H 15550 4750 50  0001 C CNN
+F 3 "" H 15550 4750 50  0001 C CNN
+	1    15550 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5FDD8A49
+P 15825 4750
+F 0 "F1" V 15620 4750 50  0000 C CNN
+F 1 "500mA" V 15711 4750 50  0000 C CNN
+F 2 "Custom_Footprints:Fuse_1206_Annotated" H 15875 4550 50  0001 L CNN
+F 3 "~" H 15825 4750 50  0001 C CNN
+	1    15825 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR015
+U 1 1 5FDDA0DE
+P 16100 4750
+F 0 "#PWR015" H 16100 4600 50  0001 C CNN
+F 1 "+5V" H 16115 4923 50  0000 C CNN
+F 2 "" H 16100 4750 50  0001 C CNN
+F 3 "" H 16100 4750 50  0001 C CNN
+	1    16100 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15925 4750 16100 4750
+Wire Wire Line
+	15725 4750 15550 4750
+Wire Notes Line
+	13800 3775 16300 3775
+Wire Notes Line
+	16300 3775 16300 5600
+Wire Notes Line
+	16300 5600 13800 5600
+Wire Notes Line
+	13800 5600 13800 3775
+Text Notes 16025 3875 0    50   ~ 0
+USB C
+Wire Wire Line
+	10050 1900 10050 2675
+Wire Wire Line
+	8450 5175 9650 5175
+Wire Wire Line
+	2450 5175 4850 5175
+Wire Wire Line
+	4850 5175 6050 5175
+Wire Wire Line
+	8450 4600 9650 4600
+$Comp
+L Switch:SW_Push K_508A1
+U 1 1 5FF43758
+P 6250 4950
+F 0 "K_508A1" H 6250 5235 50  0001 C CNN
+F 1 "KC_" H 6250 5144 50  0001 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 6250 5150 50  0001 C CNN
+F 3 "~" H 6250 5150 50  0001 C CNN
+	1    6250 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4400 6450 4950
+Connection ~ 6450 4950
+Wire Wire Line
+	6450 4950 6450 4975
+Wire Wire Line
+	6050 4950 6050 4975
+Connection ~ 6050 4975
+$Comp
+L Switch:SW_Push K_510A1
+U 1 1 5FF73369
+P 7450 4950
+F 0 "K_510A1" H 7450 5235 50  0001 C CNN
+F 1 "KC_RCTL" H 7450 5144 50  0001 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 7450 5150 50  0001 C CNN
+F 3 "~" H 7450 5150 50  0001 C CNN
+	1    7450 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4950 7250 4975
+Connection ~ 7250 4975
+Wire Wire Line
+	7650 4400 7650 4950
+Connection ~ 7650 4950
+Wire Wire Line
+	7650 4950 7650 4975
+$Comp
+L Switch:SW_Push K_300A1
+U 1 1 5FFB3E52
+P 1450 3800
+F 0 "K_300A1" H 1450 4085 50  0001 C CNN
+F 1 "KC_CAPS" H 1450 3994 50  0001 C CNN
+F 2 "MX_Only:MXOnly-1.25U-NoLED" H 1450 4000 50  0001 C CNN
+F 3 "~" H 1450 4000 50  0001 C CNN
+	1    1450 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 3800
+Wire Wire Line
+	1650 3800 1650 3250
+Wire Wire Line
+	1250 3800 1250 3825
+Connection ~ 1250 3825
+$Comp
+L Switch:SW_Push K_113A1
+U 1 1 5FFE6364
+P 9250 2650
+F 0 "K_113A1" H 9250 2935 50  0001 C CNN
+F 1 "KC_BSPC" H 9250 2844 50  0001 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9250 2850 50  0001 C CNN
+F 3 "~" H 9250 2850 50  0001 C CNN
+	1    9250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2650 9050 2675
+Connection ~ 9050 2675
+Connection ~ 9450 2650
+Wire Wire Line
+	9450 1900 9450 2650
 $EndSCHEMATC
