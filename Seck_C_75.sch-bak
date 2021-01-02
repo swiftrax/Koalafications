@@ -209,17 +209,6 @@ I2C_SCL
 Text GLabel 15850 3050 2    50   Input ~ 0
 I2C_SDA
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5FDF4362
-P 12050 3300
-F 0 "U1" H 12650 1750 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 12925 1650 50  0000 C CNN
-F 2 "Custom_Footprints:ATMEGA32U4_Annotated" H 12050 3300 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 12050 3300 50  0001 C CNN
-	1    12050 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Resonator_Small Y1
 U 1 1 5FE6EE64
 P 11200 2100
@@ -2982,4 +2971,15 @@ Connection ~ 9050 2675
 Connection ~ 9450 2650
 Wire Wire Line
 	9450 1900 9450 2650
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U?
+U 1 1 600A56EF
+P 12050 3300
+F 0 "U?" H 12050 1411 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 12050 1320 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 12050 3300 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 12050 3300 50  0001 C CNN
+	1    12050 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
