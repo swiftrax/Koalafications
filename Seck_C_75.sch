@@ -2982,4 +2982,46 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    12050 3300
 	1    0    0    -1  
 $EndComp
+Text GLabel 12650 4200 2    50   Input ~ 0
+col0
+Text GLabel 12650 4000 2    50   Input ~ 0
+row2
+Text GLabel 12650 4300 2    50   Input ~ 0
+row3
+Text GLabel 12650 4400 2    50   Input ~ 0
+row4
+Text GLabel 12650 4500 2    50   Input ~ 0
+row5
+Text GLabel 12650 3500 2    50   Input ~ 0
+col1
+Text GLabel 12650 3300 2    50   Input ~ 0
+col2
+Text GLabel 12650 3200 2    50   Input ~ 0
+col3
+Text GLabel 12650 3400 2    50   Input ~ 0
+col14
+Text GLabel 12650 3600 2    50   Input ~ 0
+col13
+Text GLabel 12650 3700 2    50   Input ~ 0
+col12
+Text GLabel 12650 2200 2    50   Input ~ 0
+col11
+Text GLabel 12650 2300 2    50   Input ~ 0
+col10
+Text GLabel 12650 2400 2    50   Input ~ 0
+col9
+Text GLabel 12650 2700 2    50   Input ~ 0
+col8
+Text GLabel 12650 2800 2    50   Input ~ 0
+col7
+Text GLabel 12650 4700 2    50   Input ~ 0
+col6
+Text GLabel 12650 4600 2    50   Input ~ 0
+col5
+Text GLabel 12650 2100 2    50   Input ~ 0
+col4
+Text GLabel 12650 1900 2    50   Input ~ 0
+row0
+Text GLabel 12650 2000 2    50   Input ~ 0
+row1
 $EndSCHEMATC
