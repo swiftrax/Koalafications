@@ -1,0 +1,187 @@
+value,footprint,datasheet,libsource/_lib,libsource/_part,libsource/_description,sheetpath/_names,sheetpath/_tstamps,tstamp,_ref,fields/field/0/_name,fields/field/0/__text
+PRTR5V0U2X,Package_TO_SOT_SMD:SOT-143,https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf,Power_Protection,PRTR5V0U2X,"Ultra low capacitance double rail-to-rail ESD protection diode, SOT-363",/,/,5FDEC976,ESD1,,
+10µF,Custom_Footprints:C_0603_Annotated,~,Device,C_Small,"Unpolarized capacitor, small symbol",/,/,5FF1D678,C1,LCSC,C19702
+100nF,Custom_Footprints:C_0603_Annotated,~,Device,C_Small,"Unpolarized capacitor, small symbol",/,/,5FF238E7,C2,LCSC,C14663
+100nF,Custom_Footprints:C_0603_Annotated,~,Device,C_Small,"Unpolarized capacitor, small symbol",/,/,5FF29C94,C3,LCSC,C14663
+100nF,Custom_Footprints:C_0603_Annotated,~,Device,C_Small,"Unpolarized capacitor, small symbol",/,/,5FF2FFA4,C4,LCSC,C14663
+OLED,Custom_Footprints:SSD1306_OLED,~,Connector,Conn_01x04_Female,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",/,/,600D2EB9,J1,,
+16MHz,Custom_Footprints:Resonator_3Pin_Annotated,~,Device,Resonator_Small,"Three pin ceramic resonator, small symbol",/,/,5FE6EE64,Y1,,
+RESET,Custom_Footprints:RESET_PADS,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FE7FCB3,SW1,,
+10kΩ,Custom_Footprints:R_0603_Annotated,~,Device,R_Small,"Resistor, small symbol",/,/,5FEDF25E,R2,LCSC,C25804
+10kΩ,Custom_Footprints:R_0603_Annotated,~,Device,R_Small,"Resistor, small symbol",/,/,5FEEABCC,R1,LCSC,C25804
+1µF,Custom_Footprints:C_0603_Annotated,~,Device,C_Small,"Unpolarized capacitor, small symbol",/,/,5FF0CD6B,C5,LCSC,C15849
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF7E7FC,D82,LCSC,C109002
+KC_RGHT,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF7E7F6,K_82,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF7E7F0,D72,LCSC,C109002
+KC_END,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF7E7EA,K_72,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF7E7E4,D58,LCSC,C109002
+KC_HOME,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF7E7DE,K_58,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF7E7D8,D43,LCSC,C109002
+KC_INS,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF7E7D2,K_43,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF7E7CC,D28,LCSC,C109002
+KC_DEL,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF7E7C6,K_28,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF7E78B,D57,LCSC,C109002
+KC_BSLS,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF7E785,K_57,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF7E77F,D42,LCSC,C109002
+KC_BSLS,MX_Only:MXOnly-1.5U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF7E779,K_42,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF7E773,D27,LCSC,C109002
+KC_BSPC,MX_Only:MXOnly-2U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF7E76D,K_27,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63CA0,D81,LCSC,C109002
+KC_DOWN,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C9A,K_81,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63C94,D71,LCSC,C109002
+KC_UP,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C8E,K_71,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63C88,D56,LCSC,C109002
+KC_ENT,MX_Only:MXOnly-2.25U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C82,K_56,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63C7C,D41,LCSC,C109002
+KC_RBRC,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C76,K_41,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63C70,D26,LCSC,C109002
+KC_EQL,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C6A,K_26,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63C64,D13,LCSC,C109002
+KC_F12,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C5E,K_13,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63C47,D80,LCSC,C109002
+KC_LEFT,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C41,K_80,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63C3B,D70,LCSC,C109002
+KC_RSFT,MX_Only:MXOnly-1.75U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C35,K_70,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63C2F,D55,LCSC,C109002
+KC_QUOT,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C29,K_55,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63C23,D40,LCSC,C109002
+KC_LBRC,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C1D,K_40,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63C17,D25,LCSC,C109002
+KC_MINS,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C11,K_25,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63C0B,D12,LCSC,C109002
+KC_F11,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63C05,K_12,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63BEE,D79,LCSC,C109002
+KC_RCTL,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63BE8,K_79,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63BE2,D69,LCSC,C109002
+KC_SLSH,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63BDC,K_69,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63BD6,D54,LCSC,C109002
+KC_SCLN,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63BD0,K_54,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63BCA,D39,LCSC,C109002
+KC_P,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63BC4,K_39,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63BBE,D24,LCSC,C109002
+KC_0,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63BB8,K_24,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF63BB2,D11,LCSC,C109002
+KC_F10,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF63BAC,K_11,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF48720,D78,LCSC,C109002
+KC_RGUI,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF4871A,K_78,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF48714,D68,LCSC,C109002
+KC_DOT,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF4870E,K_68,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF48708,D53,LCSC,C109002
+KC_L,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF48702,K_53,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF486FC,D38,LCSC,C109002
+KC_O,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF486F6,K_38,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF486F0,D23,LCSC,C109002
+KC_9,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF486EA,K_23,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF486E4,D10,LCSC,C109002
+KC_F9,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF486DE,K_10,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF486C7,D77,LCSC,C109002
+KC_RALT,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF486C1,K_77,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF486BB,D67,LCSC,C109002
+KC_COMM,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF486B5,K_67,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF486AF,D52,LCSC,C109002
+KC_K,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF486A9,K_52,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF486A3,D37,LCSC,C109002
+KC_I,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF4869D,K_37,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF48697,D22,LCSC,C109002
+KC_8,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF48691,K_22,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF4868B,D9,LCSC,C109002
+KC_F8,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF48685,K_9,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF48662,D66,LCSC,C109002
+KC_M,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF4865C,K_66,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF48656,D51,LCSC,C109002
+KC_J,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF48650,K_51,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF4864A,D36,LCSC,C109002
+KC_U,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF48644,K_36,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF4863E,D21,LCSC,C109002
+KC_7,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF48638,K_21,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF48632,D8,LCSC,C109002
+KC_F7,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF4862C,K_8,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F869,D76,LCSC,C109002
+KC_SPC,MX_Only:MXOnly-6.25U-ReversedStabilizers-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F863,K_76,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F85D,D65,LCSC,C109002
+KC_N,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F857,K_65,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F851,D50,LCSC,C109002
+KC_H,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F84B,K_50,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F845,D35,LCSC,C109002
+KC_Y,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F83F,K_35,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F839,D20,LCSC,C109002
+KC_6,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F833,K_20,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F82D,D7,LCSC,C109002
+KC_F6,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F827,K_7,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F804,D64,LCSC,C109002
+KC_B,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F7FE,K_64,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F7F8,D49,LCSC,C109002
+KC_G,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F7F2,K_49,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F7EC,D34,LCSC,C109002
+KC_T,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F7E6,K_34,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F7E0,D19,LCSC,C109002
+KC_5,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F7DA,K_19,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F7D4,D6,LCSC,C109002
+KC_F5,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F7CE,K_6,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F7AB,D63,LCSC,C109002
+KC_V,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F7A5,K_63,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F79F,D48,LCSC,C109002
+KC_F,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F799,K_48,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F793,D33,LCSC,C109002
+KC_R,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F78D,K_33,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F787,D18,LCSC,C109002
+KC_4,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F781,K_18,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF2F77B,D5,LCSC,C109002
+KC_F4,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF2F775,K_5,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF17EE4,D62,LCSC,C109002
+KC_C,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF17EDE,K_62,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF17ED8,D47,LCSC,C109002
+KC_D,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF17ED2,K_47,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF17ECC,D32,LCSC,C109002
+KC_E,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF17EC6,K_32,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF17EC0,D17,LCSC,C109002
+KC_3,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF17EBA,K_17,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF17EB4,D4,LCSC,C109002
+KC_F3,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF17EAE,K_4,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF11209,D75,LCSC,C109002
+KC_LALT,MX_Only:MXOnly-1.25U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF11203,K_75,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF111FD,D61,LCSC,C109002
+KC_X,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF111F7,K_61,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF111F1,D46,LCSC,C109002
+KC_S,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF111EB,K_46,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF111E5,D31,LCSC,C109002
+KC_W,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF111DF,K_31,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF111D9,D16,LCSC,C109002
+KC_2,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF111D3,K_16,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FF111CD,D3,LCSC,C109002
+KC_F2,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF111C7,K_3,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEF051F,D74,LCSC,C109002
+KC_LGUI,MX_Only:MXOnly-1.25U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEF0519,K_74,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEF0513,D60,LCSC,C109002
+KC_Z,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEF050D,K_60,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEF0507,D45,LCSC,C109002
+KC_A,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEF0501,K_45,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEF04FB,D30,LCSC,C109002
+KC_Q,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEF04F5,K_30,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEF04EF,D15,LCSC,C109002
+KC_1,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEF04E9,K_15,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEF04E3,D2,LCSC,C109002
+KC_F1,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEF04DD,K_2,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEEDEF3,D73,LCSC,C109002
+KC_LCTL,MX_Only:MXOnly-1.25U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEEDEED,K_73,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEEDEE7,D59,LCSC,C109002
+KC_LSFT,MX_Only:MXOnly-2.25U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEEDEE1,K_59,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEEA1C1,D44,LCSC,C109002
+KC_CAPS,MX_Only:MXOnly-1.75U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEEA1BB,K_44,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEEA1B5,D29,LCSC,C109002
+KC_TAB,MX_Only:MXOnly-1.5U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEEA1AF,K_29,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEE4945,D14,LCSC,C109002
+KC_GRV,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEE493F,K_14,,
+D_Small,Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,Device,D_Small,"Diode, small symbol",/,/,5FEDF2C4,D1,LCSC,C109002
+KC_ESC,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FEDE563,K_1,,
+HRO-TYPE-C-31-M-12,Type-C:HRO-TYPE-C-31-M-12,,Type-C,HRO-TYPE-C-31-M-12,,/,/,5FD590CA,USB1,,
+5.1kΩ,Custom_Footprints:R_0603_Annotated,~,Device,R_Small,"Resistor, small symbol",/,/,5FD7141F,R5,LCSC,C23186
+5.1kΩ,Custom_Footprints:R_0603_Annotated,~,Device,R_Small,"Resistor, small symbol",/,/,5FD72FFC,R6,LCSC,C23186
+22Ω,Custom_Footprints:R_0603_Annotated,~,Device,R_Small,"Resistor, small symbol",/,/,5FD7E017,R4,LCSC,C23345
+22Ω,Custom_Footprints:R_0603_Annotated,~,Device,R_Small,"Resistor, small symbol",/,/,5FD81472,R3,LCSC,C23345
+500mA,Custom_Footprints:Fuse_1206_Annotated,~,Device,Polyfuse_Small,"Resettable fuse, polymeric positive temperature coefficient, small symbol",/,/,5FDD8A49,F1,,
+KC_,MX_Only:MXOnly-1.5U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF43758,K_508A1,,
+KC_RCTL,MX_Only:MXOnly-1.5U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FF73369,K_510A1,,
+KC_CAPS,MX_Only:MXOnly-1.25U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FFB3E52,K_300A1,,
+KC_BSPC,MX_Only:MXOnly-1U-NoLED,~,Switch,SW_Push,"Push button switch, generic, two pins",/,/,5FFE6364,K_113A1,,
+ATmega32U4-MU,Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf,MCU_Microchip_ATmega,ATmega32U4-MU,"16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, QFN-44",/,/,600A56EF,U1,LCSC,C45874
